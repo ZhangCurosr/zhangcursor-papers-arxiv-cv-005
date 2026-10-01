@@ -4,5 +4,10 @@
  "title": "Where-MLLMs-Fail-and-Why-Causal-Task-Decomposition-for-Capab",
  "token": "sk-byuTueqyX...",
  "created_at": "2026-10-01 08:28:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/f955b406-3e59-4c39-9cff-43303eabb676.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/f955b406-3e59-4c39-9cff-43303eabb676.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:33:42",
+  "chunks": 1
+ }
 }

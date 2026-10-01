@@ -4,5 +4,37 @@
  "title": "When-Integral-Meets-Decomposition-A-Signal-Level-Self-Superv",
  "token": "sk-fyqv15Q7Q...",
  "created_at": "2026-10-01 08:31:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/cf52cc09-0c90-49e1-8696-2b58f20ef0f7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/cf52cc09-0c90-49e1-8696-2b58f20ef0f7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:33:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态图像融合",
+    "特征分解",
+    "自监督学习",
+    "信号级建模",
+    "积分优化",
+    "红外可见光融合",
+    "医学图像融合"
+   ],
+   "field": "多模态图像融合",
+   "innovations": [
+    "提出1D信号级自监督特征分解范式，将模糊的2D图像级监督重构为积分驱动的显式优化目标",
+    "设计互补的双预置任务（信号级分解+图像级重建）实现跨尺度监督",
+    "通过DWT频率分解显式解耦共同特征与模态独特特征"
+   ],
+   "benchmarks": [
+    "M³FD",
+    "TNO",
+    "MSRS",
+    "MRI-CT",
+    "MRI-PET",
+    "MRI-SPECT",
+    "LYTRO",
+    "MFFW"
+   ]
+  }
+ }
 }

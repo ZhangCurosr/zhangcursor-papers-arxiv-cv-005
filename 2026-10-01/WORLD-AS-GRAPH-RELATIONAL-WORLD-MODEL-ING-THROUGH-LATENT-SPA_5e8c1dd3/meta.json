@@ -4,5 +4,31 @@
  "title": "WORLD-AS-GRAPH-RELATIONAL-WORLD-MODEL-ING-THROUGH-LATENT-SPA",
  "token": "sk-DBMW62NBu...",
  "created_at": "2026-10-01 08:28:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/591194a5-57e2-414e-8f6f-a14a6d33f285.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/591194a5-57e2-414e-8f6f-a14a6d33f285.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:33:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "world model",
+    "JEPA",
+    "object-centric learning",
+    "dynamic graph",
+    "relational inductive bias",
+    "latent prediction",
+    "robotic manipulation"
+   ],
+   "field": "具身智能与世界模型",
+   "innovations": [
+    "将潜在空间动态图作为关系归纳偏置显式引入物体中心JEPA世界模型",
+    "提出关系中心性与时序动态两种结构化掩码策略替代随机掩码",
+    "通过时序GNN与记忆GRU实现对象级状态累积与自回归未来预测"
+   ],
+   "benchmarks": [
+    "CLEVRER VQA",
+    "PushT planning"
+   ]
+  }
+ }
 }

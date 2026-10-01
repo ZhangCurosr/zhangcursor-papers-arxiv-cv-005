@@ -4,5 +4,31 @@
  "title": "SCALING-VIDEO-GENERATION-FOR-REASONING-AT-WHAT-COST",
  "token": "sk-OldJrHBbj...",
  "created_at": "2026-09-30 18:52:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ee753274-6b99-4e47-9609-2fe948d0a877.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ee753274-6b99-4e47-9609-2fe948d0a877.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:31:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频生成",
+    "状态推理",
+    "缩放定律",
+    "自回归扩散",
+    "部分可观测",
+    "魔方基准",
+    "符号监督"
+   ],
+   "field": "视频生成模型的物理推理与缩放分析",
+   "innovations": [
+    "揭示视频生成 MSE 与状态推理准确率之间的脱钩现象，证明小模型在有限计算下优于大模型",
+    "提出符号状态监督与预测反馈机制，在同等数据预算下将 20M 模型的帧准确率从 31.1% 提升至 67.3%",
+    "构建三视角/六视角可控消融，量化部分可观测对视频推理难度的贡献"
+   ],
+   "benchmarks": [
+    "Rubik Video Benchmark（100 held-out episodes，9 步动作）",
+    "Vector-space sticker prediction（20 步，~2.8M 参数 Transformer）"
+   ]
+  }
+ }
 }

@@ -4,5 +4,35 @@
  "title": "Unveiling-the-Value-of-Motion-for-Cinematic-Camera-Trajector",
  "token": "sk-EKa3zthlJ...",
  "created_at": "2026-10-01 08:26:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/e6d1c797-0fba-4fb2-aa96-a8117c009c9d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/e6d1c797-0fba-4fb2-aa96-a8117c009c9d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:32:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cinematic camera trajectory",
+    "text-to-motion generation",
+    "masked autoregressive",
+    "DIRSPEED representation",
+    "CINESCRIPT dataset",
+    "contrastive alignment evaluation"
+   ],
+   "field": "可控视频生成与电影镜头规划",
+   "innovations": [
+    "将摄像机轨迹从绝对位姿解耦为归一化方向+对数速度（DIRSPEED），显著改善文本对齐与生成质量",
+    "提出纯对比式轻量 evaluator 剥离重建噪声以准确度量 instance-level 文本-轨迹对齐",
+    "构建 CINESCRIPT 数据集，联合 motion caption/logline/真实电影元数据支持 scene-aware 与属性级评估"
+   ],
+   "benchmarks": [
+    "CINESCRIPT",
+    "ShotBench",
+    "CineTechBench",
+    "MovieShots",
+    "CMD",
+    "VADB",
+    "CameraBench (human eval)"
+   ]
+  }
+ }
 }

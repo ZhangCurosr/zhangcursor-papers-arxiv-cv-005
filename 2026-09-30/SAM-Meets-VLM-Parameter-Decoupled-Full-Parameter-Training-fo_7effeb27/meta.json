@@ -4,5 +4,37 @@
  "title": "SAM-Meets-VLM-Parameter-Decoupled-Full-Parameter-Training-fo",
  "token": "sk-QooHq4eB2...",
  "created_at": "2026-09-30 18:50:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1f3720c2-aabf-4dbb-b575-850bc6ecce93.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1f3720c2-aabf-4dbb-b575-850bc6ecce93.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:31:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Medical MLLM",
+    "SAM-VLM Integration",
+    "Parameter-Decoupled Training",
+    "Referring Segmentation",
+    "Representation Interference",
+    "Gradient Scaling",
+    "DBI Monitoring"
+   ],
+   "field": "医学多模态大模型与推理分割",
+   "innovations": [
+    "提出基于DBI监控的三阶段参数解耦训练框架，显式隔离<SEG>接口的语义与空间表征",
+    "引入模块级梯度缩放（γ_seg=0.01）限制分割梯度对语言主干的干扰，实现全参数联合优化",
+    "冻结VLM后专调SAM2分割头，在零推理开销下进一步提升医学掩码边界精度"
+   ],
+   "benchmarks": [
+    "MeCOVQA-G+seg",
+    "MedSAM2det",
+    "MedSegBench",
+    "VQA-RAD",
+    "SLAKE",
+    "PubMedQA",
+    "MedMCQA",
+    "CMMLU"
+   ]
+  }
+ }
 }

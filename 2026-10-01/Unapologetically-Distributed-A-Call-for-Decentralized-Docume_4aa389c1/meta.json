@@ -4,5 +4,41 @@
  "title": "Unapologetically-Distributed-A-Call-for-Decentralized-Docume",
  "token": "sk-sKVjU65N5...",
  "created_at": "2026-10-01 08:22:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/d319dda8-21fc-4436-b690-cffe0697cbfd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/d319dda8-21fc-4436-b690-cffe0697cbfd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:32:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "分布式学习",
+    "文档分析",
+    "模型合并",
+    "知识蒸馏",
+    "手写识别",
+    "表格识别",
+    "低资源学习",
+    "分布外泛化"
+   ],
+   "field": "文档分析与理解",
+   "innovations": [
+    "首个多维度分布式学习系统评估（任务×架构×微调策略）",
+    "揭示分布式预训练在低资源/OOD场景的泛化优势",
+    "提出GNN消息传递层参数合并策略用于表格识别"
+   ],
+   "benchmarks": [
+    "IAM",
+    "MLT19",
+    "ICDAR 2019",
+    "RVL-CDIP",
+    "HierText",
+    "Historical Maps",
+    "SROIE",
+    "FUNSD",
+    "Copiale",
+    "Borg",
+    "Vatican cipher"
+   ]
+  }
+ }
 }

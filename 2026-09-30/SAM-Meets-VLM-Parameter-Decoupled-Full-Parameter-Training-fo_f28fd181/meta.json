@@ -4,5 +4,35 @@
  "title": "SAM-Meets-VLM-Parameter-Decoupled-Full-Parameter-Training-fo",
  "token": "sk-QooHq4eB2...",
  "created_at": "2026-09-30 08:03:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1f3720c2-aabf-4dbb-b575-850bc6ecce93.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/1f3720c2-aabf-4dbb-b575-850bc6ecce93.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:31:30",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "医学多模态大语言模型",
+    "参数解耦训练",
+    "分割-推理统一",
+    "DBI监控",
+    "SAM-VLM集成",
+    "语言条件分割"
+   ],
+   "field": "医学视觉-语言多任务学习",
+   "innovations": [
+    "引入DBI无梯度监控<SEG>隐藏状态分离度以指导训练阶段切换",
+    "对流入LLM主干的分割梯度施加0.01缩放系数以缓解推理-分割干扰",
+    "三阶段课程（浅层对齐→DBI监控指令微调→VLM冻结分割专业化）实现全参数统一训练"
+   ],
+   "benchmarks": [
+    "MeCOVQA-G+seg",
+    "MedSegBench",
+    "VQA-RAD",
+    "SLAKE",
+    "PubMedQA",
+    "MedMCQA",
+    "CMMLU"
+   ]
+  }
+ }
 }

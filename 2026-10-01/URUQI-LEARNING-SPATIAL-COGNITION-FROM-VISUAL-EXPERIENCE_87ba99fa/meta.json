@@ -4,5 +4,33 @@
  "title": "URUQI-LEARNING-SPATIAL-COGNITION-FROM-VISUAL-EXPERIENCE",
  "token": "sk-ceCpd81tF...",
  "created_at": "2026-10-01 08:26:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/1e93e5d5-4317-4548-88de-59ac994db957.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/1e93e5d5-4317-4548-88de-59ac994db957.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:32:35",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "spatial cognition",
+    "vision-language models",
+    "self-motion tracking",
+    "persistent object mapping",
+    "synthetic visual experience",
+    "egocentric reasoning",
+    "spatial post-training"
+   ],
+   "field": "具身空间智能 / 视觉语言模型空间推理",
+   "innovations": [
+    "首次联合监督自我运动追踪、持久物体映射与空间状态操作",
+    "Motif 驱动的连续视觉经验编译器",
+    "证明合成视觉轨迹可作为可扩展的空间认知监督源"
+   ],
+   "benchmarks": [
+    "URUQI",
+    "VSI-Bench",
+    "MMSI-Bench",
+    "MindCube-tiny"
+   ]
+  }
+ }
 }

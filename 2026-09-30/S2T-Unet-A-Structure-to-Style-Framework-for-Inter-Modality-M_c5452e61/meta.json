@@ -4,5 +4,29 @@
  "title": "S2T-Unet-A-Structure-to-Style-Framework-for-Inter-Modality-M",
  "token": "sk-40JBdijp9...",
  "created_at": "2026-09-30 08:09:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/edd3b064-8b09-4fe7-8fbd-dd9b8a9d0685.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/edd3b064-8b09-4fe7-8fbd-dd9b8a9d0685.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:30:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "MRI 跨模态翻译",
+    "向量量化",
+    "FiLM 模态变换",
+    "U-Net",
+    "结构-风格解耦"
+   ],
+   "field": "医学图像生成与跨模态翻译",
+   "innovations": [
+    "在 U-Net 低层瓶颈引入向量量化以离散化保留模态不变解剖结构",
+    "在高层通过 FiLM 模态变换模块以解码器特征条件调制编码器特征完成风格迁移",
+    "纯卷积确定性框架无需对抗/自注意力即匹敌或超越 GAN 与 Transformer 基线"
+   ],
+   "benchmarks": [
+    "IXI T1/T2/PD 四向翻译",
+    "PSNR / SSIM / RMSE"
+   ]
+  }
+ }
 }

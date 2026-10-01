@@ -4,5 +4,35 @@
  "title": "When-Masking-Helps-or-Hurts-Robustness-in-Compressed-CLIP-A",
  "token": "sk-OZiRtsQic...",
  "created_at": "2026-10-01 08:22:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/c41a99dc-26d6-4f1a-9d29-17ace5caf92f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/c41a99dc-26d6-4f1a-9d29-17ace5caf92f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:33:18",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "token pruning",
+    "worst-group robustness",
+    "spurious correlation",
+    "CLIP compression",
+    "deployment diagnostic"
+   ],
+   "field": "视觉语言模型高效部署与鲁棒性",
+   "innovations": [
+    "提出SIM无标签诊断指标预测遮罩对最差分组鲁棒性的影响方向",
+    "定义并实证虚假反转现象揭示text-similarity signal在特定数据集上的失效机制",
+    "设计MARS框架结合无监督分割与token剪枝并在7/8数据集匹配或超越强pruning基线"
+   ],
+   "benchmarks": [
+    "Waterbirds",
+    "UrbanCars",
+    "CelebA",
+    "MetaShifts",
+    "ImageNet-9",
+    "OxfordPets",
+    "Caltech101",
+    "ImageNet-D"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "ViTeX-Bench-Benchmarking-High-Fidelity-Video-Scene-Text-Edit",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-10-01 08:25:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/4c9721bf-f913-4460-990e-cd1aa275638c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/4c9721bf-f913-4460-990e-cd1aa275638c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:32:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "video scene text editing",
+    "video benchmark",
+    "OCR evaluation",
+    "temporal consistency",
+    "diffusion video editing",
+    "character accuracy",
+    "glyph conditioning"
+   ],
+   "field": "视频生成与编辑",
+   "innovations": [
+    "首个视频场景文字编辑三轴13指标评测基准（文字正确性/时间质量/局部保留）",
+    "基于运动对齐的glyph-video条件流实现高精度时序稳定文字渲染",
+    "Substring Edit Distance度量与Composite确定性后处理控制协议"
+   ],
+   "benchmarks": [
+    "ViTeX-Bench",
+    "ViTeX-Dataset"
+   ]
+  }
+ }
 }

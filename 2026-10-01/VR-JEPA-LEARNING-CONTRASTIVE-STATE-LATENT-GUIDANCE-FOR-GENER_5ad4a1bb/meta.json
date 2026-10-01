@@ -4,5 +4,29 @@
  "title": "VR-JEPA-LEARNING-CONTRASTIVE-STATE-LATENT-GUIDANCE-FOR-GENER",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-10-01 08:24:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/148d4c42-a79b-471e-a201-9359ffb5ed59.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/148d4c42-a79b-471e-a201-9359ffb5ed59.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:32:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频推理",
+    "V-JEPA",
+    "对比学习",
+    "混合专家",
+    "世界模型",
+    "视觉生成"
+   ],
+   "field": "视频生成与视觉推理",
+   "innovations": [
+    "局部对比状态学习（LCL）：利用成功-生成轨迹的 V-JEPA 特征差异定位关键状态和 Token 进行加权对比监督",
+    "技能路由混合专家（SR-MoE）：通过状态条件 Entmax 路由自适应组合 7 种推理技能专家，无需专家分配标签",
+    "将 V-JEPA 从场景预测扩展为任务相关推理轨迹预测，实现推理-生成解耦"
+   ],
+   "benchmarks": [
+    "VBVR-Pro-Bench"
+   ]
+  }
+ }
 }

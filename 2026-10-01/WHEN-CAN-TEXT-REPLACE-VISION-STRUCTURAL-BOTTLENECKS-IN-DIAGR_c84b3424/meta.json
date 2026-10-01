@@ -4,5 +4,30 @@
  "title": "WHEN-CAN-TEXT-REPLACE-VISION-STRUCTURAL-BOTTLENECKS-IN-DIAGR",
  "token": "sk-U9tZkJPsQ...",
  "created_at": "2026-10-01 08:24:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/3b35fd1e-a396-4f50-a6e0-4630e103699c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/3b35fd1e-a396-4f50-a6e0-4630e103699c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:33:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diagram reasoning",
+    "structured text extraction",
+    "visual-language models",
+    "benchmarking",
+    "structural bottleneck",
+    "token efficiency"
+   ],
+   "field": "多模态推理与视觉语言模型评测",
+   "innovations": [
+    "分离表示充分性与获取误差的固定求解器三层梯度协议",
+    "问题相关拓扑比全图拓扑更优预测QA正确率（Brier 0.1147 vs 0.1406）",
+    "匹配干预证明单条相关边错误可使122B求解器准确率降至0-3.5%而无关编辑保持92-94%"
+   ],
+   "benchmarks": [
+    "FlowGen",
+    "QZhou-Flowchart-QA"
+   ]
+  }
+ }
 }

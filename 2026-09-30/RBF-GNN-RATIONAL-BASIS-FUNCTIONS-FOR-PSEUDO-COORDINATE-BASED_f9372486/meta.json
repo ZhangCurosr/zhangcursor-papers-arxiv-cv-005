@@ -4,5 +4,35 @@
  "title": "RBF-GNN-RATIONAL-BASIS-FUNCTIONS-FOR-PSEUDO-COORDINATE-BASED",
  "token": "sk-byuTueqyX...",
  "created_at": "2026-09-30 18:50:54",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/087b368d-dbd7-4eb8-8953-427d0759cf51.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/087b368d-dbd7-4eb8-8953-427d0759cf51.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:31:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图神经网络",
+    "连续核卷积",
+    "伪坐标",
+    "有理函数基",
+    "SplineCNN",
+    "几何深度学习"
+   ],
+   "field": "几何图表示学习",
+   "innovations": [
+    "用全局可学习有理Padé基函数替代SplineCNN的稀疏B样条基，使基函数数量K独立于伪坐标维度D",
+    "提出Splinefit与PCA+vp两种初始化方案，配合方差保持重缩放使可学习基从起始即具备空间局部性"
+   ],
+   "benchmarks": [
+    "PascalVOC-Keypoints",
+    "SPair-71k",
+    "FAUST",
+    "N-Caltech101",
+    "N-Cars",
+    "MNIST超像素分类",
+    "CIFAR-10超像素分类",
+    "ShapeNet-Part"
+   ]
+  }
+ }
 }

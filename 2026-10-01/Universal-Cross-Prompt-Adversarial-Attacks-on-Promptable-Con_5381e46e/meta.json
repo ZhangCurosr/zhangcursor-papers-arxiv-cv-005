@@ -4,5 +4,33 @@
  "title": "Universal-Cross-Prompt-Adversarial-Attacks-on-Promptable-Con",
  "token": "sk-rXToje7Gi...",
  "created_at": "2026-10-01 08:27:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/6de54cf0-9647-4508-89f0-4c0f1653577c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/6de54cf0-9647-4508-89f0-4c0f1653577c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:32:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Promptable Concept Segmentation",
+    "Universal Adversarial Perturbation",
+    "Cross-Prompt Attack",
+    "SAM3",
+    "Adversarial Robustness",
+    "Video Segmentation",
+    "Perception Deception"
+   ],
+   "field": "视觉基础模型对抗安全",
+   "innovations": [
+    "提出min-max双层对抗提示优化策略以提升跨提示迁移性",
+    "设计全局-局部感知欺骗攻击直接压制PCS模型探测器输出",
+    "构建时序转换偏差攻击破坏帧间语义一致性与记忆指针"
+   ],
+   "benchmarks": [
+    "SA-CO",
+    "YouTube-VOS",
+    "DAVIS",
+    "MOSE"
+   ]
+  }
+ }
 }

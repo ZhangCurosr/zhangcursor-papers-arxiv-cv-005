@@ -4,5 +4,29 @@
  "title": "SCALING-VIDEO-GENERATION-FOR-REASONING-AT-WHAT-COST",
  "token": "sk-OldJrHBbj...",
  "created_at": "2026-09-30 08:11:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ee753274-6b99-4e47-9609-2fe948d0a877.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/ee753274-6b99-4e47-9609-2fe948d0a877.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:32:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频生成",
+    "scaling law",
+    "隐藏状态推理",
+    "世界模型",
+    "自回归扩散",
+    "部分观测"
+   ],
+   "field": "视频生成与物理世界建模",
+   "innovations": [
+    "揭示视频生成MSE与隐藏状态推理能力的非单调关系，证明低MSE不保证强推理",
+    "提出符号状态监督+预测分布回传的轻量训练策略，小模型可用更少算力达到大模型同等状态准确率"
+   ],
+   "benchmarks": [
+    "Rubik 2x2x2 9-step video prediction",
+    "STicker acc / Frame acc / Full-trajectory acc / Action following acc"
+   ]
+  }
+ }
 }

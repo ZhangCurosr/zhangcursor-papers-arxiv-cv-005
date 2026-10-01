@@ -4,5 +4,30 @@
  "title": "WARP-A-Unified-Benchmark-for-Invisible-Image-Watermarking-Ro",
  "token": "sk-1FwfANuN8...",
  "created_at": "2026-10-01 08:27:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/473e8a03-d32a-4403-9a2c-66305d39b83c.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/473e8a03-d32a-4403-9a2c-66305d39b83c.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 21:32:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "数字水印",
+    "对抗鲁棒性",
+    "基准测试",
+    "生成模型",
+    "图像安全"
+   ],
+   "field": "多媒体安全与取证",
+   "innovations": [
+    "首个涵盖32种水印+34种攻击的统一鲁棒性基准",
+    "提出竞争性重嵌入系统化评估协议",
+    "揭示后处理vs生成水印在再生攻击下的根本性差距"
+   ],
+   "benchmarks": [
+    "WARP",
+    "DiffusionDB",
+    "MS-COCO"
+   ]
+  }
+ }
 }
