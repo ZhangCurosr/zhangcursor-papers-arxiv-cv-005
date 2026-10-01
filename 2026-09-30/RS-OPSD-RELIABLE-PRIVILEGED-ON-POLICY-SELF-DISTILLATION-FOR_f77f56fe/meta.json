@@ -4,5 +4,30 @@
  "title": "RS-OPSD-RELIABLE-PRIVILEGED-ON-POLICY-SELF-DISTILLATION-FOR",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-09-30 18:49:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/b3f07d21-4ba1-4bf7-ae83-6c7a56536f97.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/b3f07d21-4ba1-4bf7-ae83-6c7a56536f97.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:40:23",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "UHR遥感视觉问答",
+    "同策略自蒸馏",
+    "视觉特权内化",
+    "上下文保持特权",
+    "正确性对齐蒸馏"
+   ],
+   "field": "高分辨率遥感视觉-语言模型",
+   "innovations": [
+    "首次将UHR遥感VQA建模为同策略自蒸馏问题，实现zoom-in视觉特权向模型内部迁移",
+    "提出CPVP与CAD双组件，解决特权信号弱与噪声教师监督冲突问题",
+    "构建GeoEvidence-6K与HF-SR流水线，支撑高质量证据区域标注与可复用技能迭代"
+   ],
+   "benchmarks": [
+    "XLRS-Bench",
+    "MME-RealWorld-RS",
+    "LRS-VQA"
+   ]
+  }
+ }
 }

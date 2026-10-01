@@ -4,5 +4,30 @@
  "title": "SAGE-SUBSPACE-ALIGNMENT-FOR-CLASSIFIER-FREE-GUIDANCE-IN-MIXT",
  "token": "sk-o28Oo64R2...",
  "created_at": "2026-09-29 19:08:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/9553f1ee-e01b-48d8-acb9-ae2c4cd07346.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/9553f1ee-e01b-48d8-acb9-ae2c4cd07346.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:35:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Mixture-of-Experts",
+    "Diffusion Models",
+    "Classifier-Free Guidance",
+    "Subspace Alignment",
+    "Text-to-Image Generation"
+   ],
+   "field": "扩散模型的高效推理与生成质量优化",
+   "innovations": [
+    "揭示MoE-DiT中CFG的路由诱导子空间泄漏机制，证明泄漏项随引导尺度s线性增长",
+    "提出SAGE训练时正则化器，将无条件MoE输出投影到条件子空间并惩罚残差，零推理开销",
+    "实证证明强制路由对齐（KL约束）破坏专家专业化，子空间对齐优于路由一致性约束"
+   ],
+   "benchmarks": [
+    "DPG-Bench",
+    "GenEval",
+    "FID"
+   ]
+  }
+ }
 }

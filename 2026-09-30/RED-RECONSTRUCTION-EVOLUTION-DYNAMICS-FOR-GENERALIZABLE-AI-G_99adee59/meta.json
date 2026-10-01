@@ -4,5 +4,10 @@
  "title": "RED-RECONSTRUCTION-EVOLUTION-DYNAMICS-FOR-GENERALIZABLE-AI-G",
  "token": "sk-W9Ytd4ppc...",
  "created_at": "2026-09-30 18:51:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/581d2e5a-6450-4b31-af59-45091f618b00.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/581d2e5a-6450-4b31-af59-45091f618b00.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:37:06",
+  "chunks": 1
+ }
 }

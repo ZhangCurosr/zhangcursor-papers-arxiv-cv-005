@@ -4,5 +4,10 @@
  "title": "RoboIRGBench-Benchmarking-Implicit-Referential-Grounding-in",
  "token": "sk-f9bQDVs2Y...",
  "created_at": "2026-09-29 19:07:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b787cf4f-9b8e-4323-bb4a-30050414d2d3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/b787cf4f-9b8e-4323-bb4a-30050414d2d3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:35:21",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,34 @@
  "title": "RELAYVSR-LARGE-SMALL-MODEL-COLLABORA-TION-FOR-EFFICIENT-REAL",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-09-30 18:53:10",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/30346a21-6958-4071-a75e-af6d1ee67ccc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/30346a21-6958-4071-a75e-af6d1ee67ccc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:38:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频超分辨率",
+    "流式VSR",
+    "大模型小模型协作",
+    "稀疏关键帧",
+    "强化学习优化",
+    "Diffusion-NFT",
+    "感知质量"
+   ],
+   "field": "视频超分辨率与生成模型效率优化",
+   "innovations": [
+    "稀疏生成中继机制：大模型仅稀疏处理关键帧，轻量网络复用参考逐帧超分",
+    "双记忆视频Transformer：持久关键帧记忆+滚动视频记忆的联合注意力设计",
+    "VARO双层奖励强化学习：系统级与参考级奖励协同优化大-小模型协作间隙"
+   ],
+   "benchmarks": [
+    "REDS30",
+    "UDM10",
+    "YouHQ40",
+    "VideoLQ",
+    "LongVSR60"
+   ]
+  }
+ }
 }

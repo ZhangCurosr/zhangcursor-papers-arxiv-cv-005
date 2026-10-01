@@ -4,5 +4,40 @@
  "title": "REPROGRAMMING-VISION-LANGUAGE-MODELS-VIA-STRUCTURED-PROMPT-R",
  "token": "sk-MTzedkBc1...",
  "created_at": "2026-09-30 18:51:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e77c7133-72c7-46d7-9fd5-f0c82a03a254.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e77c7133-72c7-46d7-9fd5-f0c82a03a254.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:38:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Visual Reprogramming",
+    "Vision-Language Model",
+    "Few-shot Classification",
+    "Prompt Learning",
+    "CLIP Adaptation",
+    "Structured Reparameterization",
+    "Fine-grained Recognition"
+   ],
+   "field": "视觉语言模型自适应",
+   "innovations": [
+    "提出RVP结构化跨类视觉重编程框架，在类内聚合基础上引入残差类间校正矩阵",
+    "证明CLIP-based VR可等价表示为从图像嵌入到logits的线性映射，推理时精确重参数化为单一线性分类器",
+    "提供子空间保持与共享语义抑制的理论保证，在11个benchmark上全面超越现有视觉重编程方法"
+   ],
+   "benchmarks": [
+    "FGVC Aircraft",
+    "StanfordCars",
+    "Caltech101",
+    "Flowers102",
+    "DTD",
+    "Food101",
+    "OxfordPets",
+    "SUN397",
+    "UCF101",
+    "EuroSAT",
+    "RESISC45"
+   ]
+  }
+ }
 }

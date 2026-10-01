@@ -4,5 +4,30 @@
  "title": "ROXDRIVE-CLOSED-LOOP-REINFORCEMENT-LEARNING-FOR-END-TO-END-A",
  "token": "sk-vo4GDqdWy...",
  "created_at": "2026-09-30 08:06:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/54b126d8-7ce2-4adb-b47d-258d3916273e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/54b126d8-7ce2-4adb-b47d-258d3916273e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:40:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "end-to-end autonomous driving",
+    "closed-loop reinforcement learning",
+    "world model",
+    "action-vision faithfulness",
+    "GRPO",
+    "imitation learning"
+   ],
+   "field": "端到端自动驾驶与强化学习",
+   "innovations": [
+    "首次显式评估长视界视频世界模型rollout的动作-视觉忠实度并过滤",
+    "几何感知辅助轨迹监督缓解逆动力学累积误差",
+    "密集安全感知评分与场景级闭环GRPO策略结合"
+   ],
+   "benchmarks": [
+    "nuScenes",
+    "In-house 130K training / 1K test"
+   ]
+  }
+ }
 }

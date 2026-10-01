@@ -4,5 +4,30 @@
  "title": "Reliability-Gated-Fusion-of-Consumer-Head-and-Foot-IMUs-for",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-09-29 19:06:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/8c24610c-5356-4b42-8da1-94c99cde4e2e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/8c24610c-5356-4b42-8da1-94c99cde4e2e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:34:28",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "稀疏惯性姿态估计",
+    "消费级IMU",
+    "通道级可靠性门控",
+    "多传感器融合",
+    "故障鲁棒性",
+    "伪地面真值"
+   ],
+   "field": "可穿戴传感与人体姿态估计",
+   "innovations": [
+    "通道级可靠性门控融合机制，通过合成故障预训练+辅助BCE损失学习动态信任标量",
+    "消费级头/足IMU基准的通道级诊断，揭示足部加速度为信息源、固件融合方向为毒性来源",
+    "端到端无测试时监督的通道选择性，实现干净数据与多种故障下的最优鲁棒性"
+   ],
+   "benchmarks": [
+    "35-take single-subject consumer-IMU benchmark (AirPods head + Striv foot IMUs + 4-view RGB-D)",
+    "sim-MPJPE, R2_motion, distal error, MPJVE, AUROC for dropout detection"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "RS-OPSD-RELIABLE-PRIVILEGED-ON-POLICY-SELF-DISTILLATION-FOR",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-09-30 08:06:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/b3f07d21-4ba1-4bf7-ae83-6c7a56536f97.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/b3f07d21-4ba1-4bf7-ae83-6c7a56536f97.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:39:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "超高分辨率遥感",
+    "视觉问答",
+    "在线策略自蒸馏",
+    "特权蒸馏",
+    "上下文保持视觉特权",
+    "正确性对齐蒸馏",
+    "GeoEvidence-6K"
+   ],
+   "field": "遥感视觉语言模型与高空间分辨率理解",
+   "innovations": [
+    "将局部放大视觉特权通过 OPSD 内化，实现零搜索零工具调用的 UHR VQA",
+    "构建含证据区域标注的 GeoEvidence-6K 并配套 HF-SR 人机协同标注管线",
+    "提出 CPVP 与 CAD 双组件，分别强化特权信号质量与抑制教师有害监督"
+   ],
+   "benchmarks": [
+    "XLRS-Bench",
+    "MME-RealWorld-RS",
+    "LRS-VQA"
+   ]
+  }
+ }
 }

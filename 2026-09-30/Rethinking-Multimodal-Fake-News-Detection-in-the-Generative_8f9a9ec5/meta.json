@@ -4,5 +4,35 @@
  "title": "Rethinking-Multimodal-Fake-News-Detection-in-the-Generative",
  "token": "sk-Q9H20f53a...",
  "created_at": "2026-09-30 08:10:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/bc8609b6-9773-41a7-a2b6-2f4d089d8669.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/bc8609b6-9773-41a7-a2b6-2f4d089d8669.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:40:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multimodal fake news detection",
+    "AIGC detection",
+    "generative AI",
+    "hierarchical reasoning",
+    "Weibo26",
+    "cross-modal fusion",
+    "factuality verification"
+   ],
+   "field": "多模态虚假信息检测",
+   "innovations": [
+    "构建首个同时标注真实性与生成性的多模态假新闻数据集Weibo26（15,154样本、六种类型）",
+    "提出GAHR框架，通过全局判断与局部修正相结合，并将生成性信息作为辅助监督信号参与真实性推理",
+    "在五个现有基准和Weibo26上系统性验证，AIGC图像检测AUC达0.999、准确率0.994"
+   ],
+   "benchmarks": [
+    "Weibo26",
+    "Weibo17",
+    "Weibo21",
+    "PHEME",
+    "GossipCop",
+    "AMG"
+   ]
+  }
+ }
 }

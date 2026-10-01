@@ -4,5 +4,10 @@
  "title": "S-sup-3-sup-Spectral-Null-Space-Swap-Makes-Reasoning-Models",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-09-30 18:49:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/0fc73dc1-fb77-494f-8099-a110c9a05340.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/0fc73dc1-fb77-494f-8099-a110c9a05340.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:41:19",
+  "chunks": 1
+ }
 }

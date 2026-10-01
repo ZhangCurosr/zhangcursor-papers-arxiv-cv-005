@@ -4,5 +4,39 @@
  "title": "REPROGRAMMING-VISION-LANGUAGE-MODELS-VIA-STRUCTURED-PROMPT-R",
  "token": "sk-MTzedkBc1...",
  "created_at": "2026-09-30 08:17:29",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e77c7133-72c7-46d7-9fd5-f0c82a03a254.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e77c7133-72c7-46d7-9fd5-f0c82a03a254.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:38:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉重编程",
+    "视觉-语言模型",
+    "少样本分类",
+    "结构化重参数化",
+    "类间关系建模",
+    "CLIP适配"
+   ],
+   "field": "视觉-语言模型少样本适配",
+   "innovations": [
+    "证明CLIP视觉重编程等价于归一化图像嵌入到logits的线性映射，为结构化分类器设计提供理论依据",
+    "提出类内加权聚合+类间残差校正的两阶段建模框架，显式抑制共享语义并放大细粒度差异",
+    "训练时多模块可在推理时精确重参数化为单一线性分类器，实现零额外推理开销"
+   ],
+   "benchmarks": [
+    "FGVC Aircraft",
+    "StanfordCars",
+    "Caltech101",
+    "Flowers102",
+    "OxfordPets",
+    "SUN397",
+    "EuroSAT",
+    "Food101",
+    "DTD",
+    "UCF101",
+    "RESISC45"
+   ]
+  }
+ }
 }

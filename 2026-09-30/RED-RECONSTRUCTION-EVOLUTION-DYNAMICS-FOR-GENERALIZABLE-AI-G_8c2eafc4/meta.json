@@ -4,5 +4,35 @@
  "title": "RED-RECONSTRUCTION-EVOLUTION-DYNAMICS-FOR-GENERALIZABLE-AI-G",
  "token": "sk-W9Ytd4ppc...",
  "created_at": "2026-09-30 08:07:32",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/581d2e5a-6450-4b31-af59-45091f618b00.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/581d2e5a-6450-4b31-af59-45091f618b00.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:36:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AI生成图像检测",
+    "泛化检测",
+    "重建演化动力学",
+    "token负对数似然",
+    "多尺度VQ-VAE",
+    "自回归建模",
+    "取证分析"
+   ],
+   "field": "AI生成图像检测",
+   "innovations": [
+    "首次揭示真实-生成token-NLL顺序在多尺度重建过程中的反转现象，提出从终点比较转向演化过程分析的新视角",
+    "提出RED框架，首次使用尺度级token可预测性引导粗到细重建轨迹的取证证据聚合",
+    "在六个基准上达到92.5%平均准确率和97.5%平均精度，无需目标域适应实现跨生成器泛化"
+   ],
+   "benchmarks": [
+    "GenImage",
+    "ARForensics",
+    "EvalGEN",
+    "Qwen-Image-Bench",
+    "Chameleon",
+    "GPT-Image-2-Twitter"
+   ]
+  }
+ }
 }

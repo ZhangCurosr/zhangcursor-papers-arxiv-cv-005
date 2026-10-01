@@ -4,5 +4,31 @@
  "title": "RAEGNet-Relation-Aware-Evidence-Graph-Network-for-Harm-Aware",
  "token": "sk-EKa3zthlJ...",
  "created_at": "2026-09-30 18:51:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/165bf083-c457-405c-988d-ac05709e8e7b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/165bf083-c457-405c-988d-ac05709e8e7b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:36:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态假新闻检测",
+    "事件级证据检索",
+    "关系感知图网络",
+    "危害感知",
+    "外部知识增强",
+    "事实核查"
+   ],
+   "field": "多模态虚假信息检测",
+   "innovations": [
+    "事件级证据检索框架ELERF，减少语义噪声",
+    "关系感知证据图网络RAEGNet，建模9类有向边关系",
+    "危害感知联合优化目标，同步学习真实性分类与条件危害估计"
+   ],
+   "benchmarks": [
+    "Weibo-21",
+    "Fakeddit",
+    "SSS"
+   ]
+  }
+ }
 }

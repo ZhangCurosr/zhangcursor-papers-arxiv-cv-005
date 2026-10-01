@@ -4,5 +4,34 @@
  "title": "Rethinking-Multimodal-Fake-News-Detection-in-the-Generative",
  "token": "sk-Q9H20f53a...",
  "created_at": "2026-09-30 18:51:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/bc8609b6-9773-41a7-a2b6-2f4d089d8669.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/bc8609b6-9773-41a7-a2b6-2f4d089d8669.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:40:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态假新闻检测",
+    "AIGC检测",
+    "生成感知推理",
+    "分层推理",
+    "Weibo26",
+    "跨模态融合"
+   ],
+   "field": "多模态假新闻检测",
+   "innovations": [
+    "构建Weibo26数据集，首次在多模态假新闻场景中同时标注真实性与生成性双重标签，覆盖六种生成参与类型",
+    "提出GAHR框架，将全局跨模态判断与局部证据校正结合，并以残差门控方式融合，使生成性信息参与真实性推理",
+    "引入生成性检测辅助分支，证明生成性标签可显著提升含AI生成内容样本的假新闻识别效果"
+   ],
+   "benchmarks": [
+    "Weibo26",
+    "PHEME",
+    "AMG",
+    "Weibo17",
+    "Weibo21",
+    "GossipCop"
+   ]
+  }
+ }
 }

@@ -4,5 +4,28 @@
  "title": "ROLLOUT-MARGINAL-DISTILLATION-FOR-LONG-HORIZON-AUTOREGRESSIV",
  "token": "sk-7NOZt17oN...",
  "created_at": "2026-09-30 08:00:56",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/47665ffa-de11-403e-af72-c50d3d1bd393.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/47665ffa-de11-403e-af72-c50d3d1bd393.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:39:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自回归视频生成",
+    "分布匹配蒸馏",
+    "长时视频生成",
+    "误差累积",
+    "模型蒸馏"
+   ],
+   "field": "视频生成与自回归扩散模型",
+   "innovations": [
+    "提出卷出边际蒸馏，独立评分块以解耦质量与时间监督",
+    "两阶段训练：先边际匹配保质量，后视频级DMD恢复连贯性",
+    "非对称去噪退出策略，区分初始块与续接块的监督时机"
+   ],
+   "benchmarks": [
+    "VBench-Long"
+   ]
+  }
+ }
 }

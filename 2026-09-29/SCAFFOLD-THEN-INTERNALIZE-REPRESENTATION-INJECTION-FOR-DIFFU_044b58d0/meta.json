@@ -4,5 +4,32 @@
  "title": "SCAFFOLD-THEN-INTERNALIZE-REPRESENTATION-INJECTION-FOR-DIFFU",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-09-29 19:06:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/614e1721-9c6c-40fc-86b6-78217a19b3aa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/614e1721-9c6c-40fc-86b6-78217a19b3aa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:35:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Diffusion Transformer",
+    "Representation Alignment",
+    "REPA",
+    "Scaffold-to-Internalization",
+    "Vision Encoder",
+    "Training Acceleration",
+    "Image Generation"
+   ],
+   "field": "扩散模型训练加速与表征学习",
+   "innovations": [
+    "提出REPI框架，将编码器表示注入扩散Transformer并以脚手架-内化策略进行训练，与REPA反向互补",
+    "发现K/V联合注入比V-only更适合脚手架移除与内化过程，揭示了信息流保持与外部知识吸收的平衡设计",
+    "REPA+REPI组合在160K步达到FID 8.22，匹敌vanilla SiT 7M步的8.30，实现超43.5倍训练加速"
+   ],
+   "benchmarks": [
+    "ImageNet 256×256",
+    "ImageNet 512×512",
+    "MS-COCO text-to-image"
+   ]
+  }
+ }
 }

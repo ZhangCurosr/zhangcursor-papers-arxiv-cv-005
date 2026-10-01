@@ -4,5 +4,31 @@
  "title": "REWORLD-TRACK-A-RECURSIVE-EVENT-WORLD-MODEL-FORLANGUAGE-GUID",
  "token": "sk-LqkNuH8i8...",
  "created_at": "2026-09-30 08:08:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e4fc2168-b4b2-4b7b-a9fa-9966f5105b18.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/e4fc2168-b4b2-4b7b-a9fa-9966f5105b18.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:38:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multi-camera tracking",
+    "language-guided tracking",
+    "event world model",
+    "recursive belief update",
+    "identity continuity",
+    "cross-camera forecasting",
+    "probabilistic association"
+   ],
+   "field": "多摄像头目标跟踪",
+   "innovations": [
+    "将候选与空状态的后验加权 mixture 显式传入下一事件预测的递归信念更新机制",
+    "预测-关联-等待三者耦合，临时空假设与网络存在概率分离建模",
+    "跨交接梯度回传训练，使后续预测误差监督早期不确定关联的保留信息"
+   ],
+   "benchmarks": [
+    "CityFlowV2",
+    "MTMMC"
+   ]
+  }
+ }
 }

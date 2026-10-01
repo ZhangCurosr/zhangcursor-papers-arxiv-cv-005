@@ -4,5 +4,31 @@
  "title": "REPRESENTATION-DYNAMICS-REVEAL-SEMANTIC-SALIENCY-AND-SIMILAR",
  "token": "sk-TJ3mjvq2i...",
  "created_at": "2026-09-30 08:06:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/474eb51c-33cc-480a-9e28-3bcea3201c9f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/474eb51c-33cc-480a-9e28-3bcea3201c9f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:38:24",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "visual token pruning",
+    "multimodal large language models",
+    "representation dynamics",
+    "training-free compression",
+    "semantic saliency"
+   ],
+   "field": "多模态大模型高效推理",
+   "innovations": [
+    "揭示更新幅度层依赖的前景显著性与更新方向的语义可分性",
+    "提出查询加权显著性+更新方向分组的无训练三级剪枝框架",
+    "在四种不同视觉管线架构上验证强泛化与高压缩下优势放大"
+   ],
+   "benchmarks": [
+    "LLaVA-1.5-7B",
+    "LLaVA-NeXT-7B",
+    "Mini-Gemini-7B",
+    "Qwen2.5-VL-7B"
+   ]
+  }
+ }
 }

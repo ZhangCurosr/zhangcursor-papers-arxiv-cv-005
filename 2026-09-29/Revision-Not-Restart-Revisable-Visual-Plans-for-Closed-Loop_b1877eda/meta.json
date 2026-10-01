@@ -4,5 +4,30 @@
  "title": "Revision-Not-Restart-Revisable-Visual-Plans-for-Closed-Loop",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-09-29 19:06:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/8caf6a46-1532-4e70-b60e-3798da32d043.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/8caf6a46-1532-4e70-b60e-3798da32d043.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:34:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "world-action model",
+    "robotic manipulation",
+    "diffusion policy",
+    "feedback-driven planning",
+    "visual future revision",
+    "closed-loop control"
+   ],
+   "field": "具身智能与机器人控制",
+   "innovations": [
+    "将中间去噪状态作为可修订的持久视觉计划而非丢弃重采样",
+    "三阶段解耦训练（历史适配→修订桥梁→偏差估计器）",
+    "自适应更新策略在保留/两档桥接/新鲜间按偏差阈值优先级选择"
+   ],
+   "benchmarks": [
+    "RoboMME",
+    "RMBench"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "Revisiting-Risky-Tackle-Detection-with-Vision-Transformers",
  "token": "sk-MljcAo9Bd...",
  "created_at": "2026-09-29 19:06:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/282e275e-120c-45cc-9de4-fe5ef3eeac01.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/282e275e-120c-45cc-9de4-fe5ef3eeac01.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:34:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Video Vision Transformer",
+    "ViViT",
+    "Reproducible Research",
+    "Risky Tackle Detection",
+    "Taguchi Design",
+    "Focal Loss",
+    "Sports Safety"
+   ],
+   "field": "视频动作分类 / 体育安全 AI",
+   "innovations": [
+    "首次用 Taguchi L18 正交设计系统化筛选视频 ViT 的增强因子并量化主效应",
+    "提供 SATT-3 危险擒抱检测的完整可复现 artifact 与 opt_* 指标 lineage 追溯",
+    "揭示无增强的 ViViT 在小样本视频任务上反而低于 C3D baseline 的脆弱性"
+   ],
+   "benchmarks": [
+    "SATT-3 733-clip",
+    "C3D baseline"
+   ]
+  }
+ }
 }

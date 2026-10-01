@@ -4,5 +4,10 @@
  "title": "RELAYVSR-LARGE-SMALL-MODEL-COLLABORA-TION-FOR-EFFICIENT-REAL",
  "token": "sk-mtKOSZtKc...",
  "created_at": "2026-09-30 08:12:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/30346a21-6958-4071-a75e-af6d1ee67ccc.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/30346a21-6958-4071-a75e-af6d1ee67ccc.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:37:55",
+  "chunks": 1
+ }
 }

@@ -4,5 +4,10 @@
  "title": "Rethinking-Representations-for-World-Action-Modeling",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-09-30 18:49:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/d145aa65-977b-46a4-94c8-d66b1ce82c79.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/d145aa65-977b-46a4-94c8-d66b1ce82c79.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:41:09",
+  "chunks": 1
+ }
 }

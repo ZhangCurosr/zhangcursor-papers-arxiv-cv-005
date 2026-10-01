@@ -4,5 +4,35 @@
  "title": "Revitalizing-Medical-Time-Series-with-Vision-Informed-Retrie",
  "token": "sk-g1W7S8UIF...",
  "created_at": "2026-09-29 19:08:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/483c2a03-3502-4e3b-ad38-3e5fed1ddbe6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/483c2a03-3502-4e3b-ad38-3e5fed1ddbe6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:35:16",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "medical time series",
+    "vision-language model",
+    "CLIP",
+    "cross-modal retrieval",
+    "ECG",
+    "EEG",
+    "morphology-aware"
+   ],
+   "field": "医学时间序列分类",
+   "innovations": [
+    "用冻结CLIP视觉特征作为形态Query引导数值Token检索",
+    "双路径非对称交叉注意力统一Temporal与Channel证据聚合",
+    "确定性波形渲染+缓存策略实现低成本跨模态对齐"
+   ],
+   "benchmarks": [
+    "APAVA",
+    "ADFTD",
+    "TDBrain",
+    "PTB",
+    "PTB-XL",
+    "MIMIC"
+   ]
+  }
+ }
 }

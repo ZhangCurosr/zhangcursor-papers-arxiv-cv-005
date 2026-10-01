@@ -4,5 +4,41 @@
  "title": "S-sup-3-sup-Spectral-Null-Space-Swap-Makes-Reasoning-Models",
  "token": "sk-haVkJ3VAf...",
  "created_at": "2026-09-30 08:07:37",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a959cc0c-e2a4-4dd2-87e3-a434111d651f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a959cc0c-e2a4-4dd2-87e3-a434111d651f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:40:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "推理效率",
+    "权重空间组合",
+    "谱分解",
+    "注意力熵",
+    "Chain-of-Thought",
+    "训练免费方法",
+    "模型合并"
+   ],
+   "field": "大语言模型高效推理",
+   "innovations": [
+    "首次揭示 Thinking-Non-thinking 权重差的功能贡献主要集中在非推理模型主导谱子空间的正交补（零空间）",
+    "提出 S³ 训练免费谱零空间交换方法，在 2B-30B 多模态模型上平均减少 27.4% token 并提升 1.0 pp 准确率",
+    "建立注意力熵与零空间投影的理论联系，证明 H_Null < H_Base < H_Sub 的一致性排序"
+   ],
+   "benchmarks": [
+    "AIME24/25",
+    "HMMT25",
+    "CMIMC25",
+    "Olympiad-Bench",
+    "GSM8K",
+    "MMLU",
+    "MMMU",
+    "MathVista",
+    "AMC23",
+    "MATH-500",
+    "MMAR",
+    "MMSU"
+   ]
+  }
+ }
 }

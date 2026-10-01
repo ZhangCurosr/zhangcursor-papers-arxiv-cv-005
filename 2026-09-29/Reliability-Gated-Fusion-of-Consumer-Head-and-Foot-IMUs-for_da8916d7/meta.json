@@ -4,5 +4,31 @@
  "title": "Reliability-Gated-Fusion-of-Consumer-Head-and-Foot-IMUs-for",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-09-29 07:52:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/8c24610c-5356-4b42-8da1-94c99cde4e2e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/8c24610c-5356-4b42-8da1-94c99cde4e2e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 09:34:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "sparse IMU pose estimation",
+    "reliability-gated fusion",
+    "consumer wearable sensors",
+    "smart insole",
+    "inertial motion capture",
+    "channel-level gating"
+   ],
+   "field": "稀疏惯性传感器人体姿态估计",
+   "innovations": [
+    "通道级可靠性门控融合机制，预训练阶段借助合成腐蚀与辅助BCE目标学习每流每通道的信任权重",
+    "首次系统诊断消费级足部IMU的通道级问题：加速度为奖赏、固件融合方向为毒素",
+    "无测试时监督下门控自动压制固有偏差并在线检测故障，AUROC达0.92–0.999"
+   ],
+   "benchmarks": [
+    "SAM-3D-Body pseudo-GT benchmark (35 takes, single-subject)",
+    "run hold-out",
+    "seq hold-out"
+   ]
+  }
+ }
 }
