@@ -4,5 +4,33 @@
  "title": "SEEING-IS-NOT-ADDRESSING-AUDITING-LINGUISTIC-ACCESS-TO-FROZE",
  "token": "sk-jny6RLrk9...",
  "created_at": "2026-09-30 08:03:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6b52efc6-bfbe-4f9a-9cb5-cb38b3db2081.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6b52efc6-bfbe-4f9a-9cb5-cb38b3db2081.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:42:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "vision-language models",
+    "cross-modal retrieval",
+    "visual discriminability",
+    "linguistic addressability",
+    "matched visual grounding",
+    "compositional retrieval"
+   ],
+   "field": "视觉-语言模型细粒度对齐与检索",
+   "innovations": [
+    "提出视觉可判别性与语言可及性分离的审计框架，揭示冻结VLM中表示保留与语言访问的差距",
+    "发明匹配视觉接地方法，通过目标对平均其余的逐值视觉对比方向增强原生文本查询",
+    "证明全局对齐后仍存在值特定残余访问缺口，匹配接地可进一步消除"
+   ],
+   "benchmarks": [
+    "FactorAtlas",
+    "DTD",
+    "Fashionpedia",
+    "COCO-Facet",
+    "UT-Zappos"
+   ]
+  }
+ }
 }

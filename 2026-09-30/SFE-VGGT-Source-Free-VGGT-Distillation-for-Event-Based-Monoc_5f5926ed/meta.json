@@ -4,5 +4,31 @@
  "title": "SFE-VGGT-Source-Free-VGGT-Distillation-for-Event-Based-Monoc",
  "token": "sk-o28Oo64R2...",
  "created_at": "2026-09-30 08:09:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/cead1fc6-c36b-487b-a375-2e614527b27d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/cead1fc6-c36b-487b-a375-2e614527b27d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:44:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Event-Based Depth Estimation",
+    "Source-Free Distillation",
+    "VGGT",
+    "Cross-Modal Transfer",
+    "Monocular Depth",
+    "Event Camera"
+   ],
+   "field": "事件相机几何感知",
+   "innovations": [
+    "提出无源蒸馏框架 SFE-VGGT，以事件重建帧替代真实 RGB 作为几何教师",
+    "设计密度感知特征蒸馏与置信度加权深度蒸馏，动态抑制重建伪影传播",
+    "提出跨帧关系一致性损失，仅依赖学生自身时序深度排序维持几何稳定"
+   ],
+   "benchmarks": [
+    "EventScape",
+    "MVSEC",
+    "DENSE"
+   ]
+  }
+ }
 }

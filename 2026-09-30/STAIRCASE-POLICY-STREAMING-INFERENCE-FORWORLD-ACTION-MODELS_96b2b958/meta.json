@@ -4,5 +4,31 @@
  "title": "STAIRCASE-POLICY-STREAMING-INFERENCE-FORWORLD-ACTION-MODELS",
  "token": "sk-ae40QN0Hy...",
  "created_at": "2026-09-30 18:52:23",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/11bf39ad-2e71-4243-874b-b75436e7c836.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/11bf39ad-2e71-4243-874b-b75436e7c836.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:44:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "World-Action Model",
+    "流式推理",
+    "动作分块",
+    "VLA",
+    "flow matching",
+    "robot manipulation"
+   ],
+   "field": "机器人具身智能",
+   "innovations": [
+    "阶梯式去噪调度：将大动作块分段并在交错去噪阶段逐步发出，使近期动作可立即执行",
+    "观测条件刷新机制：在子块边界用最新观测更新未来潜变量条件，无需重复调用骨干网络",
+    "未来预测误差驱动的自适应分块信号：利用 MSE(预测未来, 真实未来)动态决策执行截断"
+   ],
+   "benchmarks": [
+    "LIBERO",
+    "LIBERO-Plus",
+    "DOMINO"
+   ]
+  }
+ }
 }

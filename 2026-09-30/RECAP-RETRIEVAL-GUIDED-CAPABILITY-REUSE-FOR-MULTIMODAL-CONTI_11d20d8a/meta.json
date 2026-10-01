@@ -4,5 +4,30 @@
  "title": "RECAP-RETRIEVAL-GUIDED-CAPABILITY-REUSE-FOR-MULTIMODAL-CONTI",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-09-30 07:59:15",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6cf07031-2e69-4462-badd-3a20784cf08f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/6cf07031-2e69-4462-badd-3a20784cf08f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:41:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "multimodal continual instruction tuning",
+    "retrieval-augmented generation",
+    "capability reuse",
+    "adaptive subspace recycling",
+    "parameter-efficient fine-tuning",
+    "catastrophic forgetting"
+   ],
+   "field": "多模态持续学习",
+   "innovations": [
+    "检索引导的能力路径组成：将 RAG 检索结果显式组织为实例级有序能力模块序列，突破纯参数空间方法",
+    "自适应子空间回收：基于历史能量谱的 QR 重参数化实现共享能力的跨阶段稳定复用",
+    "任务无关的阶段核路由：多信号融合实现无需任务标签的历史能力复用选择"
+   ],
+   "benchmarks": [
+    "UCIT",
+    "CoIN"
+   ]
+  }
+ }
 }

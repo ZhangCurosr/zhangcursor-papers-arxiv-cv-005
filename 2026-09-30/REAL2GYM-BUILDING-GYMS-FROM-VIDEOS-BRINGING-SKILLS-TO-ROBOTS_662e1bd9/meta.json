@@ -4,5 +4,31 @@
  "title": "REAL2GYM-BUILDING-GYMS-FROM-VIDEOS-BRINGING-SKILLS-TO-ROBOTS",
  "token": "sk-fyqv15Q7Q...",
  "created_at": "2026-09-30 18:50:49",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/45cdd5eb-8054-449b-9e8d-339b57ad2cb3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/45cdd5eb-8054-449b-9e8d-339b57ad2cb3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:41:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Real2Sim2Real",
+    "robot manipulation",
+    "simulation reconstruction",
+    "skill accumulation",
+    "coding agent",
+    "MuJoCo",
+    "Blender"
+   ],
+   "field": "具身智能与机器人操作",
+   "innovations": [
+    "事件驱动修正与原生物理验证闭环构建可执行数字孪生环境",
+    "阶段级代码生成智能体实现高效子任务级闭环执行",
+    "基于反馈的经验驱动结构化技能提取与复用（固定模型参数）"
+   ],
+   "benchmarks": [
+    "DROID",
+    "EgoDex"
+   ]
+  }
+ }
 }

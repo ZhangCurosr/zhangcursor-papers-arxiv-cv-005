@@ -4,5 +4,30 @@
  "title": "SCCM-Spherically-Consistent-Coarse-Matching-for-ERP-Dense-Fe",
  "token": "sk-yHDqoBBn3...",
  "created_at": "2026-09-30 08:10:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c94be49f-bcb1-4d7d-9fcd-f292a651c591.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c94be49f-bcb1-4d7d-9fcd-f292a651c591.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:42:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Dense Matching",
+    "Equirectangular Projection",
+    "Spherical Geometry",
+    "Positional Encoding",
+    "Covisibility Gating"
+   ],
+   "field": "360° 图像视觉",
+   "innovations": [
+    "提出 SPA 模块纠正 ERP 的拓扑与成对度量畸变",
+    "提出 AAC 模块校正像素级面积偏差以优化可见性门控",
+    "建立固定脚手架消融协议分离架构增益与球面前缀增益"
+   ],
+   "benchmarks": [
+    "Matterport3D",
+    "Stanford2D3D",
+    "Holo360D"
+   ]
+  }
+ }
 }

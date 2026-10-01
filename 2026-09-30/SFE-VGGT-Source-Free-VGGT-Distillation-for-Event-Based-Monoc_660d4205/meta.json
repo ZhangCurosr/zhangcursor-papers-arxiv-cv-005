@@ -4,5 +4,31 @@
  "title": "SFE-VGGT-Source-Free-VGGT-Distillation-for-Event-Based-Monoc",
  "token": "sk-o28Oo64R2...",
  "created_at": "2026-09-30 18:50:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/cead1fc6-c36b-487b-a375-2e614527b27d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/cead1fc6-c36b-487b-a375-2e614527b27d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:44:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "event camera",
+    "monocular depth estimation",
+    "source-free distillation",
+    "VGGT",
+    "cross-modal knowledge transfer",
+    "geometric prior"
+   ],
+   "field": "事件相机几何感知",
+   "innovations": [
+    "提出无源蒸馏框架 SFE-VGGT，在不依赖配对 RGB 的条件下将 VGGT 几何先验迁移至事件深度估计",
+    "设计密度感知特征蒸馏 DAFD 与置信度加权深度蒸馏 CWDD，缓解事件重建不完美导致的不可靠监督",
+    "提出跨帧关系一致性损失 CFRC，利用可靠帧间对应而非教师深度维持时序几何稳定"
+   ],
+   "benchmarks": [
+    "EventScape",
+    "MVSEC",
+    "DENSE"
+   ]
+  }
+ }
 }

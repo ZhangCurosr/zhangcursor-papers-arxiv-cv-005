@@ -4,5 +4,31 @@
  "title": "SafeVantage-Vantage-Aware-Memory-for-Reliable-Embodied-Decis",
  "token": "sk-yeaNqR4AC...",
  "created_at": "2026-09-30 18:51:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a5c5d1fb-c144-47d9-a100-52b3bf392d57.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/a5c5d1fb-c144-47d9-a100-52b3bf392d57.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:45:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "embodied decision-making",
+    "active perception",
+    "vantage-aware memory",
+    "selective prediction",
+    "ProcTHOR",
+    "candidate observability"
+   ],
+   "field": "具身智能中的主动感知与可靠决策",
+   "innovations": [
+    "视角感知语义记忆：显式保留支撑视图与目标几何以驱动主动获取",
+    "候选可观察性预测：基于声明定位的 logistic 模型预测视角可见性",
+    "几何一致性门控选择性决策：区分证据不足与证据缺失的 YES/NO/ABSTAIN 三态输出"
+   ],
+   "benchmarks": [
+    "ProcTHOR-10K",
+    "HM3D-Sem",
+    "ScanNet"
+   ]
+  }
+ }
 }

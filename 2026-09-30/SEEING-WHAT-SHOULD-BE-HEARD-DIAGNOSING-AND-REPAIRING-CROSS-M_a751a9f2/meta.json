@@ -4,5 +4,10 @@
  "title": "SEEING-WHAT-SHOULD-BE-HEARD-DIAGNOSING-AND-REPAIRING-CROSS-M",
  "token": "sk-xC0qospQN...",
  "created_at": "2026-09-30 08:07:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/552dd541-9542-4166-aec3-a379ce669a27.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/552dd541-9542-4166-aec3-a379ce669a27.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:43:36",
+  "chunks": 1
+ }
 }

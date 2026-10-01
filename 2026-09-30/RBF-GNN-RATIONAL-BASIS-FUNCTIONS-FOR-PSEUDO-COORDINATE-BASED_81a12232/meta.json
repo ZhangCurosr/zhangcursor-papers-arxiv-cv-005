@@ -4,5 +4,36 @@
  "title": "RBF-GNN-RATIONAL-BASIS-FUNCTIONS-FOR-PSEUDO-COORDINATE-BASED",
  "token": "sk-byuTueqyX...",
  "created_at": "2026-09-30 08:08:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/087b368d-dbd7-4eb8-8953-427d0759cf51.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/087b368d-dbd7-4eb8-8953-427d0759cf51.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:41:02",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图神经网络",
+    "伪坐标卷积",
+    "有理基函数",
+    "SplineCNN",
+    "几何深度学习",
+    "连续核"
+   ],
+   "field": "几何图神经网络",
+   "innovations": [
+    "用可学习安全Padé有理基替代固定B样条基，消除参数指数爆炸",
+    "提出样条拟合和PCA+方差保持双轨初始化策略",
+    "Chebyshev多项式参数化改善高维多项式条件数"
+   ],
+   "benchmarks": [
+    "PascalVOC关键点匹配",
+    "SPair-71k",
+    "FAUST形状对应",
+    "N-Caltech101事件识别",
+    "N-Cars",
+    "MNIST超像素",
+    "CIFAR-10超像素",
+    "ShapeNet-Part部件分割"
+   ]
+  }
+ }
 }

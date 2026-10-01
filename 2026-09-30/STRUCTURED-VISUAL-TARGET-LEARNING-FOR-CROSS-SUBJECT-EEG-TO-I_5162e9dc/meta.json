@@ -4,5 +4,29 @@
  "title": "STRUCTURED-VISUAL-TARGET-LEARNING-FOR-CROSS-SUBJECT-EEG-TO-I",
  "token": "sk-vlHk6dmng...",
  "created_at": "2026-09-30 18:50:58",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/26fcdbab-19c1-42cf-8a38-2b9f9319c40f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/26fcdbab-19c1-42cf-8a38-2b9f9319c40f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 17:44:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "EEG解码",
+    "跨被试泛化",
+    "EEG-to-图像检索",
+    "视觉目标学习",
+    "对比学习",
+    "MMD正则化",
+    "表示精炼"
+   ],
+   "field": "跨被试EEG解码与神经解码",
+   "innovations": [
+    "结构化多视图视觉目标：将PE空间特征转换为K=12个互补视图并块结构路由聚合",
+    "训练无关表示精炼：无标签transductive对齐冻结嵌入，提升18.5pp Top-1"
+   ],
+   "benchmarks": [
+    "THINGS-EEG2 (LOSO, 200-way zero-shot)"
+   ]
+  }
+ }
 }
