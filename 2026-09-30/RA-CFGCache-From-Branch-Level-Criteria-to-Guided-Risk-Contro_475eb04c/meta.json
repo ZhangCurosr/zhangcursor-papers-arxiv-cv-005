@@ -4,5 +4,30 @@
  "title": "RA-CFGCache-From-Branch-Level-Criteria-to-Guided-Risk-Contro",
  "token": "sk-KvGX6663A...",
  "created_at": "2026-09-30 08:10:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/67d2ebdb-9145-4645-a0cf-33701d51a53d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/67d2ebdb-9145-4645-a0cf-33701d51a53d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:50:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion caching",
+    "classifier-free guidance",
+    "training-free acceleration",
+    "risk-aligned control",
+    "error propagation"
+   ],
+   "field": "扩散模型推理加速",
+   "innovations": [
+    "提出CFG下分支误差与引导误差的几何不匹配分析，构造引导风险组合公式",
+    "引入timestep依赖的传播增益先验（幂律拟合）解决局部-最终误差失配",
+    "将现有分支级代理统一升级为风险对齐控制框架，兼容TeaCache/MagCache/DiCache"
+   ],
+   "benchmarks": [
+    "DrawBench FLUX.1-dev",
+    "VBench Wan2.1-T2V-1.3B",
+    "VBench CogVideoX-2B"
+   ]
+  }
+ }
 }

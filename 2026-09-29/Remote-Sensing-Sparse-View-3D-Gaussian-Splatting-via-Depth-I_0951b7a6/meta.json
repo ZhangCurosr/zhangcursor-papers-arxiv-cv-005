@@ -4,5 +4,29 @@
  "title": "Remote-Sensing-Sparse-View-3D-Gaussian-Splatting-via-Depth-I",
  "token": "sk-Wt6bONApk...",
  "created_at": "2026-09-29 19:07:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/132e62e1-9409-4e00-9971-fc7579449074.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/132e62e1-9409-4e00-9971-fc7579449074.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:44:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "稀疏视角",
+    "新视图合成",
+    "遥感",
+    "3D高斯泼溅",
+    "深度图像生成",
+    "几何初始化"
+   ],
+   "field": "遥感三维重建与新视图合成",
+   "innovations": [
+    "提出DIBR-GS框架，将DIBR伪视图监督引入神经高斯泼溅",
+    "设计渐进式DIBR伪视图生成策略提供跨视角一致性约束",
+    "提出高度约束锚点生长策略抑制漂浮伪影"
+   ],
+   "benchmarks": [
+    "LEVIR-NVS"
+   ]
+  }
+ }
 }

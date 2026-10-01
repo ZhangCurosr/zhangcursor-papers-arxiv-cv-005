@@ -4,5 +4,29 @@
  "title": "SubjectAnchor",
  "token": "sk-yeaNqR4AC...",
  "created_at": "2026-09-29 19:07:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/61796e77-78b7-4f89-83a9-75f077bb8faa.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/61796e77-78b7-4f89-83a9-75f077bb8faa.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:49:31",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多镜头视频生成",
+    "身份一致性",
+    "记忆条件生成",
+    "扩散Transformer",
+    "主体感知",
+    "叙事视频"
+   ],
+   "field": "多镜头叙事视频生成",
+   "innovations": [
+    "提出SubjectAnchor框架，以显式主体级视觉记忆替代隐式历史上下文实现跨镜头身份保持",
+    "设计主体感知RoPE，通过负向时间槽位隔离不同主体的记忆token避免身份纠缠",
+    "记忆-生成注意力非对称分区，在共享backbone内实现条件注入与目标生成的解耦"
+   ],
+   "benchmarks": [
+    "自定义多镜头故事基准（50故事/204镜头）"
+   ]
+  }
+ }
 }

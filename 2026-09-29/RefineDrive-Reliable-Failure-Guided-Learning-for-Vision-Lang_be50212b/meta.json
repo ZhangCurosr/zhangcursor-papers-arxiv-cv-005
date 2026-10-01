@@ -4,5 +4,30 @@
  "title": "RefineDrive-Reliable-Failure-Guided-Learning-for-Vision-Lang",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-09-29 07:53:21",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/068d9c4e-d56f-4a9f-ac28-b8eaaef07b26.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/068d9c4e-d56f-4a9f-ac28-b8eaaef07b26.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:44:22",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Vision-Language-Action",
+    "autonomous driving",
+    "failure learning",
+    "reinforcement learning",
+    "NAVSIM",
+    "safety-aware planning"
+   ],
+   "field": "端到端自动驾驶",
+   "innovations": [
+    "结构化可验证故障诊断替代VLM开放式解释",
+    "最小修正目标检索避免过度修正",
+    "安全分层奖励实现安全与进度兼顾"
+   ],
+   "benchmarks": [
+    "NAVSIM v1",
+    "NAVSIM v2 extended metrics"
+   ]
+  }
+ }
 }

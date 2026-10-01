@@ -4,5 +4,30 @@
  "title": "SurgGMF-Fully-Causal-Gaussian-Motion-Forecasting-for-Anticip",
  "token": "sk-OzxqMKxem...",
  "created_at": "2026-09-29 19:07:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/ac158f8e-933e-47a7-889b-e98d7ee47135.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/ac158f8e-933e-47a7-889b-e98d7ee47135.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:49:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Gaussian Splatting",
+    "Surgical Scene Forecasting",
+    "Causal Rendering",
+    "Motion Prediction",
+    "Dynamic 3D Gaussian",
+    "Temporal Learning"
+   ],
+   "field": "手术场景神经渲染与预测",
+   "innovations": [
+    "提出完全因果的 Gaussian 运动预测框架 SurgGMF，预测 X/S/R 残差而非直接生成 RGB",
+    "引入全因果最后帧渲染协议防止目标帧属性泄漏",
+    "系统对比神经时间学习者与经典动力学基线，揭示精度-效率权衡"
+   ],
+   "benchmarks": [
+    "EndoNeRF",
+    "StereoMIS"
+   ]
+  }
+ }
 }

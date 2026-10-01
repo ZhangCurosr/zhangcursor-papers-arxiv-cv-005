@@ -4,5 +4,31 @@
  "title": "SPOC-Net-Single-Primitive-Online-Composition-Network-for-GNS",
  "token": "sk-b5uWIpmTE...",
  "created_at": "2026-09-29 19:07:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/28412074-eba9-422a-9053-f9a079321ff0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/28412074-eba9-422a-9053-f9a079321ff0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:46:54",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "GNSS jamming recognition",
+    "compositional generalization",
+    "multi-label classification",
+    "online IQ composition",
+    "structured set decoding",
+    "cardinality estimation"
+   ],
+   "field": "GNSS干扰识别与组合泛化",
+   "innovations": [
+    "仅用单组分实测IQ进行梯度优化的在线组合训练范式",
+    "组件查询与脱离梯度的高分辨率基数分支联合的结构化解码",
+    "训练列与留置组合严格分离的组配泛化评测协议"
+   ],
+   "benchmarks": [
+    "14,220条导引混合射频记录",
+    "十组训练列/六组留置组合分区",
+    "AlexNet-ML, ResNet18-ML, Feature-ResNet18-ML, ACSNet-ML, MSFF-KAN-ML, TS-FANet-ML"
+   ]
+  }
+ }
 }

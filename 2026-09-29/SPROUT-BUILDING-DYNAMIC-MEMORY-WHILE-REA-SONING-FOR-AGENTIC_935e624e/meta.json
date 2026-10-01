@@ -4,5 +4,10 @@
  "title": "SPROUT-BUILDING-DYNAMIC-MEMORY-WHILE-REA-SONING-FOR-AGENTIC",
  "token": "sk-yJ5h9Go8b...",
  "created_at": "2026-09-29 19:06:40",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/cd050947-062c-421c-a692-adad22039020.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/cd050947-062c-421c-a692-adad22039020.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:46:59",
+  "chunks": 1
+ }
 }

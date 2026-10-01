@@ -4,5 +4,32 @@
  "title": "Recent-Advances-in-Agentic-Agri-Robotic-Phenotyping-A-Perspe",
  "token": "sk-qmUqzLD4i...",
  "created_at": "2026-09-29 08:04:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/1ecaaef0-29b4-46b2-8fe0-06bd14cb364a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/1ecaaef0-29b4-46b2-8fe0-06bd14cb364a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:44:57",
+  "chunks": 4,
+  "meta": {
+   "keywords": [
+    "PhenoAgent",
+    "Agentic AI",
+    "植物表型组学",
+    "数字孪生",
+    "多模态融合",
+    "SSPEM",
+    "农业机器人",
+    "因果推理"
+   ],
+   "field": "农业AI与智能表型",
+   "innovations": [
+    "首次系统提出PhenoAgent概念框架，将表型从碎片化传感整合为证据驱动的闭环推理系统",
+    "提出SSPEM五维统一范式，连接种子-土壤-植物-环境-管理的因果链",
+    "构建四层架构与8步闭环工作流，支持时序推理、不确定性量化与人机协同校正"
+   ],
+   "benchmarks": [
+    "AgEval",
+    "PlantXpert"
+   ]
+  }
+ }
 }

@@ -4,5 +4,31 @@
  "title": "ReCAT-Remember-Count-and-Time-Structured-Recurrent-Memory-fo",
  "token": "sk-iG65PZaJv...",
  "created_at": "2026-09-29 08:01:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/59afb411-ed7d-4855-9162-642ef8a0b6f6.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/59afb411-ed7d-4855-9162-642ef8a0b6f6.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:43:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "机器人操作",
+    "循环记忆",
+    "Mamba-2",
+    "flow-matching",
+    "非马尔可夫决策",
+    "视觉-语言-动作模型"
+   ],
+   "field": "具身智能与记忆型策略学习",
+   "innovations": [
+    "Mamba-2循环层与因果注意力混合的紧凑时序记忆架构，支持可互换更新规则",
+    "flow-matching解码器每block分离跨注意力接入当前观测与历史状态",
+    "系统对比累加/旋转/替换三类循环更新规则在计数、定时、空间recall任务上的差异化表现"
+   ],
+   "benchmarks": [
+    "LIBERO",
+    "RMBench",
+    "LIBERO-Plus"
+   ]
+  }
+ }
 }

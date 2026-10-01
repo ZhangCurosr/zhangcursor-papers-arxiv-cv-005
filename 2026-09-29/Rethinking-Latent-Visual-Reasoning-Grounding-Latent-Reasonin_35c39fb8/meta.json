@@ -4,5 +4,33 @@
  "title": "Rethinking-Latent-Visual-Reasoning-Grounding-Latent-Reasonin",
  "token": "sk-vlHk6dmng...",
  "created_at": "2026-09-29 19:07:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/e71caadc-b417-45f4-9ac8-21e08a8253e3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/e71caadc-b417-45f4-9ac8-21e08a8253e3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:45:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "latent visual reasoning",
+    "multimodal LLM",
+    "visual grounding",
+    "GRPO",
+    "chain-of-thought",
+    "representation learning"
+   ],
+   "field": "多模态大模型推理",
+   "innovations": [
+    "提出 ReaLVR 通过答案对比定位监督位置、正负视觉对比定义监督内容",
+    "首次发现并量化 latent evidence-credit gap",
+    "首次在 235B 规模 MLLM 上实现潜在空间视觉推理训练"
+   ],
+   "benchmarks": [
+    "MMVP",
+    "BLINK",
+    "HRBench-4K",
+    "HRBench-8K",
+    "MME-RealWorld"
+   ]
+  }
+ }
 }

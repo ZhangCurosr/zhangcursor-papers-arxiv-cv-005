@@ -4,5 +4,35 @@
  "title": "SCALING-VERSATILE-3D-ASSETS-EDITING-WITH-A-MILLION-SCALE-DAT",
  "token": "sk-9GUbCO4kb...",
  "created_at": "2026-09-29 19:08:00",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/1e9dd865-4a9b-4e8b-8d94-7e3ae53526a3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/1e9dd865-4a9b-4e8b-8d94-7e3ae53526a3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:46:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Asset Editing",
+    "Flow Matching",
+    "Few-Step Distillation",
+    "Large-Scale Dataset",
+    "GEdit3D-Bench",
+    "Token Fusion",
+    "Trajectory-Aware Inpainting"
+   ],
+   "field": "3D 生成与编辑",
+   "innovations": [
+    "融合源/目标 token 的自注意力编辑架构替代 ControlNet-style 旁路注入",
+    "MeanFlow + DMD 两阶段少步蒸馏实现 4× 推理加速",
+    "百万级多类型 3D 编辑数据集与开放世界多维基准"
+   ],
+   "benchmarks": [
+    "GEdit3D-Bench",
+    "Eval3DEdit",
+    "3DEditVerse",
+    "Edit3D-Bench (VoxHammer)",
+    "Nano3D-100K",
+    "PartObjaverse-Tiny"
+   ]
+  }
+ }
 }

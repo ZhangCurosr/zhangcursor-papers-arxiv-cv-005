@@ -4,5 +4,38 @@
  "title": "SPIDER-Multi-Layer-Semantic-Token-Pruning-and-Adaptive-Sub-L",
  "token": "sk-3sasXMHBZ...",
  "created_at": "2026-09-29 19:08:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/31f5a214-5793-4ece-bce7-eb38b6a3b292.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/31f5a214-5793-4ece-bce7-eb38b6a3b292.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:47:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Multimodal Large Language Models",
+    "Token Pruning",
+    "Layer Skipping",
+    "Efficient Inference",
+    "Vision-Language Models",
+    "Training-free Acceleration",
+    "Sub-layer Skipping"
+   ],
+   "field": "多模态大模型高效推理",
+   "innovations": [
+    "提出利用视觉编码器中间层与深层特征的多层语义Token剪枝，纠正最后层语义焦点偏移",
+    "首次系统量化MLLM Decoder中Attention与FFN子层对视觉Token的贡献差异，提出自适应子层跳过机制",
+    "构建统一的训练无关框架SPIDER，联合消除编码器端数据冗余与解码器端计算冗余"
+   ],
+   "benchmarks": [
+    "GQA",
+    "VQAv2",
+    "MME",
+    "TextVQA",
+    "POPE",
+    "MMB",
+    "MMVet",
+    "MMStar",
+    "DocVQA"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "Resolution-as-a-First-Class-Decision-Task-Conditioned-Routin",
  "token": "sk-aeujzMN4P...",
  "created_at": "2026-09-29 19:07:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/95a17764-120d-4172-bdc2-d92f8db18c88.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/95a17764-120d-4172-bdc2-d92f8db18c88.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:45:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大语言模型",
+    "推理效率优化",
+    "任务条件化路由",
+    "视觉压缩",
+    "动态分辨率",
+    "轻量级插件模块"
+   ],
+   "field": "多模态大语言模型效率优化",
+   "innovations": [
+    "将分辨率选择形式化为任务条件化路由问题，首次提出TCRR轻量级插件模块",
+    "构建Res-500k大规模语义保真度数据集，采用teacher-oracle管线标注最优压缩比例",
+    "双阶段跨模态交互机制（FiLM全局调制+Cross-Attention空间感知）实现精准压缩决策"
+   ],
+   "benchmarks": [
+    "Qwen3-VL系列(2B/4B/8B/30B-A3B/32B/235B-A22B)",
+    "InternVL3.5系列",
+    "MMBench, MMStar, MMMU, MathVista, HallusionBench, OCRBench, MMVet, TextVQA, ChartQA, DocVQA, InfoVQA, MME-RealWorld-CN",
+    "OmniMedVQA (医学), LRS-VQA (遥感)"
+   ]
+  }
+ }
 }

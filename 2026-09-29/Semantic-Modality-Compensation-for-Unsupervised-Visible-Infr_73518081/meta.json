@@ -4,5 +4,10 @@
  "title": "Semantic-Modality-Compensation-for-Unsupervised-Visible-Infr",
  "token": "sk-dpgvlEWCZ...",
  "created_at": "2026-09-29 19:07:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/cdfd651d-fdf9-4313-b7f9-24ddc9890330.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/cdfd651d-fdf9-4313-b7f9-24ddc9890330.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:47:50",
+  "chunks": 1
+ }
 }

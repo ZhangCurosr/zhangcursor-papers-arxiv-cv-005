@@ -4,5 +4,10 @@
  "title": "RefineDrive-Reliable-Failure-Guided-Learning-for-Vision-Lang",
  "token": "sk-ZGznq9xBq...",
  "created_at": "2026-09-29 19:06:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/068d9c4e-d56f-4a9f-ac28-b8eaaef07b26.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/068d9c4e-d56f-4a9f-ac28-b8eaaef07b26.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:44:31",
+  "chunks": 1
+ }
 }

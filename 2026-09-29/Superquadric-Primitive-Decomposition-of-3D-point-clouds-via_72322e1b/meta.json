@@ -4,5 +4,33 @@
  "title": "Superquadric-Primitive-Decomposition-of-3D-point-clouds-via",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-09-29 19:06:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/9503a87a-a186-4d3b-b377-43fa2d9872fd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/9503a87a-a186-4d3b-b377-43fa2d9872fd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:49:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "superquadric",
+    "3D primitive decomposition",
+    "RANSAC",
+    "graph-cut",
+    "geometric-aware inlier refinement",
+    "multi-model fitting"
+   ],
+   "field": "3D视觉与几何建模",
+   "innovations": [
+    "提出含法向一致性与残差加权的GAIR图割能量函数，突破纯残差/邻近内点判定的局限",
+    "将GAIR嵌入单模型RANSAC并配合法向引导的局部几何采样，提升超二次曲面鲁棒拟合",
+    "以顺序GAIR假设生成+最大覆盖选择的GAIR-RANSACOV实现邻接/重叠原语的稳健分解"
+   ],
+   "benchmarks": [
+    "SqSoup",
+    "TangentSuperquadrics",
+    "Thingi10K subset",
+    "Sketchfab scans",
+    "iPhone LiDAR scans"
+   ]
+  }
+ }
 }

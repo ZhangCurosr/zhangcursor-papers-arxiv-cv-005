@@ -4,5 +4,33 @@
  "title": "SNaP-One-Step-Posterior-Sampling-for-Noisy-Inverse-Problems",
  "token": "sk-SVYqei9VG...",
  "created_at": "2026-09-29 19:09:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/1de83664-90ea-4dca-be57-fdfca8f96873.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/1de83664-90ea-4dca-be57-fdfca8f96873.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:46:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "inverse problems",
+    "posterior sampling",
+    "flow matching",
+    "MeanFlow",
+    "measurement-adapted source",
+    "one-step generation",
+    "calibration ratio",
+    "MRI reconstruction"
+   ],
+   "field": "计算成像与生成模型交叉",
+   "innovations": [
+    "测量自适应高斯源使一步 MeanFlow 直接逼近噪声线性逆问题的后验分布",
+    "Tikhonov 型中心与异向协方差闭式构造，降低一步运输路径与不可约回归误差",
+    "单样本 1 NFE 实现后验采样，较迭代后验采样器加速 30–2250×"
+   ],
+   "benchmarks": [
+    "CelebA deblurring/super-resolution/inpainting",
+    "AFHQ-Cat deblurring/super-resolution/inpainting",
+    "fastMRI multi-coil brain ×4/×8 acceleration"
+   ]
+  }
+ }
 }

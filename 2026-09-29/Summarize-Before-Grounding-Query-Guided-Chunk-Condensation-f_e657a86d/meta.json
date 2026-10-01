@@ -4,5 +4,31 @@
  "title": "Summarize-Before-Grounding-Query-Guided-Chunk-Condensation-f",
  "token": "sk-KgtqP1w4p...",
  "created_at": "2026-09-29 19:07:17",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/274dee0d-0a28-42dd-bcd0-e6554bc83107.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/274dee0d-0a28-42dd-bcd0-e6554bc83107.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:49:34",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频时间定位",
+    "长视频理解",
+    "强化学习",
+    "多模态大模型",
+    "查询引导摘要"
+   ],
+   "field": "长视频时序定位",
+   "innovations": [
+    "查询引导的潜在KV摘要压缩视觉证据",
+    "关联摘要检索筛选关键分块",
+    "长度感知梯度门控平衡显存与学习"
+   ],
+   "benchmarks": [
+    "Ego4D-NLQ",
+    "TACoS",
+    "Charades-STA",
+    "ActivityNet-Captions"
+   ]
+  }
+ }
 }

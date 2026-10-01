@@ -4,5 +4,31 @@
  "title": "STILL-THERE-NO-LONGER-SEEN-EXPOSING-COMPRESSION-INDUCED-RISK",
  "token": "sk-4qwN7yoJ8...",
  "created_at": "2026-09-29 19:06:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a52e8652-27b7-4347-8701-e247bdbe2798.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a52e8652-27b7-4347-8701-e247bdbe2798.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:46:58",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "大视觉语言模型",
+    "视觉token压缩",
+    "对抗攻击",
+    "压缩特定失败",
+    "模型鲁棒性",
+    "效率与安全权衡"
+   ],
+   "field": "多模态大模型安全与鲁棒性",
+   "innovations": [
+    "提出压缩特定失败(CSF)的配对归因框架，区分压缩引入与继承的失败",
+    "设计CIRA攻击，仅凭vision encoder白盒即可在未知压缩配置下诱导压缩路径失败",
+    "建立保留集分配因果影响压缩正确性、表征漂移负相关恢复效果的诊断证据"
+   ],
+   "benchmarks": [
+    "POPE",
+    "TextVQA",
+    "MME"
+   ]
+  }
+ }
 }

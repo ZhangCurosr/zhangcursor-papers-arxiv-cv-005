@@ -4,5 +4,32 @@
  "title": "SEE-MEASURE-AND-REASON-LEARNING-VISUALLY-GROUNDED-REASONING",
  "token": "sk-zzqRc1aqT...",
  "created_at": "2026-09-29 19:08:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/fac658df-4e5d-45a1-badb-aea5d3405a32.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/fac658df-4e5d-45a1-badb-aea5d3405a32.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:45:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Pathology Vision-Language Models",
+    "Visual Grounding",
+    "Reinforcement Learning",
+    "Cell Counting",
+    "Benchmark",
+    "Process Verification"
+   ],
+   "field": "病理视觉语言模型",
+   "innovations": [
+    "通过病理特征重建+细胞特征对齐+数量监督训练中间视觉token，实现显式细粒度感知",
+    "RL奖励同时优化答案正确性与观测一致性，减少self-contradicting输出",
+    "提出PathoVernier基准与RAWR指标，联合评估最终答案与中间测量质量"
+   ],
+   "benchmarks": [
+    "PathoVernier",
+    "PathCLS",
+    "PathVQA",
+    "Quilt-VQA"
+   ]
+  }
+ }
 }

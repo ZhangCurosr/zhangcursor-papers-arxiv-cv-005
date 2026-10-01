@@ -4,5 +4,30 @@
  "title": "SPATIALSKILL-SELF-EVOLVING-SKILLS-FOR-CROSS-VIEW-SPATIAL-REA",
  "token": "sk-L8fxiXWw6...",
  "created_at": "2026-09-29 19:08:18",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/7c78455e-f0ea-43e1-83ca-ab3970984f83.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/7c78455e-f0ea-43e1-83ca-ab3970984f83.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:46:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "cross-view spatial reasoning",
+    "vision-language model",
+    "skill evolution",
+    "frozen VLM",
+    "explicit reasoning skills",
+    "stability-constrained learning"
+   ],
+   "field": "视觉语言模型的空间推理",
+   "innovations": [
+    "提出无需参数更新的冻结VLM跨视角空间推理技能自我演化框架SpatialSkill",
+    "设计地面验证准入门（视觉证据+可执行性双重检查）保障感知类技能积累可靠性",
+    "引入增长预算、资历保护、探测分数棘轮三层稳定性控制机制防止有害更新"
+   ],
+   "benchmarks": [
+    "CityCube",
+    "MMSI-Bench"
+   ]
+  }
+ }
 }

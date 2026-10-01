@@ -4,5 +4,40 @@
  "title": "Resolution-as-a-First-Class-Decision-Task-Conditioned-Routin",
  "token": "sk-aeujzMN4P...",
  "created_at": "2026-09-29 07:58:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/95a17764-120d-4172-bdc2-d92f8db18c88.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/95a17764-120d-4172-bdc2-d92f8db18c88.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:45:08",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大语言模型",
+    "推理效率优化",
+    "动态分辨率路由",
+    "跨模态融合",
+    "视觉压缩",
+    "任务条件化决策"
+   ],
+   "field": "高效多模态大模型",
+   "innovations": [
+    "将分辨率选择形式化为任务条件化的路由决策，提出轻量级跨模态路由器实现上游动态压缩",
+    "构建Res-500k数据集并采用Teacher-Oracle管道（GPT-5.1判别语义等价性）提供干净监督信号",
+    "揭示自适应分辨率增益高度依赖tokenization粒度：连续patch架构比刚性tiling设计效率提升更显著"
+   ],
+   "benchmarks": [
+    "MMBench",
+    "MMStar",
+    "MMMU",
+    "MathVista",
+    "HallusionBench",
+    "OCRBench",
+    "MMVet",
+    "TextVQA",
+    "ChartQA",
+    "DocVQA",
+    "InfoVQA",
+    "MME-RealWorld-CN"
+   ]
+  }
+ }
 }

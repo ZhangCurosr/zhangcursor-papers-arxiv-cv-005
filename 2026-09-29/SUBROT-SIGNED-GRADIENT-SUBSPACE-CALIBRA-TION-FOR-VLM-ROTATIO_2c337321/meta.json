@@ -4,5 +4,33 @@
  "title": "SUBROT-SIGNED-GRADIENT-SUBSPACE-CALIBRA-TION-FOR-VLM-ROTATIO",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-09-29 19:07:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6217bbb4-4989-4dcf-b8c5-97bec3897e4f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/6217bbb4-4989-4dcf-b8c5-97bec3897e4f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:47:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VLM量化",
+    "后训练量化",
+    "Fisher矩阵",
+    "旋转量化",
+    "敏感子空间",
+    "跨样本稳定性"
+   ],
+   "field": "视觉语言模型高效推理",
+   "innovations": [
+    "通过Fisher特征分解在通道空间识别跨样本稳定的敏感子空间",
+    "在符号稳定方向施加重损失引导，剩余敏感方向施加二阶曲率约束",
+    "一阶+二阶联合优化目标实现量化误差的方向塑形与幅度控制"
+   ],
+   "benchmarks": [
+    "MMMU",
+    "OCRBench",
+    "VizWiz",
+    "ChartQA",
+    "SEEDBench2Plus"
+   ]
+  }
+ }
 }

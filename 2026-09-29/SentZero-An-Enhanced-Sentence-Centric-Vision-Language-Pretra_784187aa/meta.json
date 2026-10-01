@@ -4,5 +4,10 @@
  "title": "SentZero-An-Enhanced-Sentence-Centric-Vision-Language-Pretra",
  "token": "sk-40JBdijp9...",
  "created_at": "2026-09-29 19:08:13",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a8cedc3e-ff73-445b-9c67-d91f2d9cdf32.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/a8cedc3e-ff73-445b-9c67-d91f2d9cdf32.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:48:30",
+  "chunks": 1
+ }
 }

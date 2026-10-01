@@ -4,5 +4,35 @@
  "title": "SEGBANANA-STEERING-UNIFIED-MULTIMODAL-MODELS-INTO-MEDICAL-SE",
  "token": "sk-dqq3c6Uup...",
  "created_at": "2026-09-29 19:08:16",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/4261036e-339c-40be-a9a6-4dca7529d8e7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/4261036e-339c-40be-a9a6-4dca7529d8e7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:46:19",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "medical image segmentation",
+    "unified multimodal models",
+    "training-free",
+    "agentic inference",
+    "visual generation",
+    "zero-shot transfer"
+   ],
+   "field": "医学图像分割与多模态大模型",
+   "innovations": [
+    "首次系统揭示 UMM 内在医学分割能力并提出训练免费智能体框架",
+    "提出解剖感知检索+比较质量批判+状态感知控制器的闭环迭代 refine 范式"
+   ],
+   "benchmarks": [
+    "TNBC",
+    "RAVIR",
+    "Drishti-GS",
+    "ISIC",
+    "BUS-UCLM",
+    "Kvasir",
+    "ACDC",
+    "BraTS"
+   ]
+  }
+ }
 }

@@ -4,5 +4,28 @@
  "title": "Style-Driven-Data-Synthesis-and-Degradation-Aware-Enhancemen",
  "token": "sk-WcZzSI744...",
  "created_at": "2026-09-29 19:06:50",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/1ac22cba-9598-4856-b17e-d0de2cd7e253.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/1ac22cba-9598-4856-b17e-d0de2cd7e253.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:48:59",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "超声图像增强",
+    "退化建模",
+    "LoRA",
+    "扩散模型",
+    "未配对翻译",
+    "风格迁移"
+   ],
+   "field": "医学图像超分辨率",
+   "innovations": [
+    "两阶段风格驱动数据合成解决未对齐问题",
+    "DDG-LoRA退化条件修正矩阵实现输入自适应增强"
+   ],
+   "benchmarks": [
+    "USenhance2023"
+   ]
+  }
+ }
 }

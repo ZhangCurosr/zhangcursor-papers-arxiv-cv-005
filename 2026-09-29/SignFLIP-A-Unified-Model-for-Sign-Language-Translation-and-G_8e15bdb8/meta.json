@@ -4,5 +4,35 @@
  "title": "SignFLIP-A-Unified-Model-for-Sign-Language-Translation-and-G",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-09-29 19:07:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/1444074f-0efc-49a2-a494-0c59faa065a3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-29/1444074f-0efc-49a2-a494-0c59faa065a3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-01 03:48:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "手语翻译",
+    "手语生成",
+    "统一多模态建模",
+    "分阶段训练",
+    "LLM",
+    "对比学习",
+    "表征迁移"
+   ],
+   "field": "多模态手语理解与生成",
+   "innovations": [
+    "基于LLM的统一SLT/SLG框架SignFLIP，实现双向手语-文本对齐",
+    "三阶段渐进式对齐训练策略，预训练-SLT-SLG知识逐级传递",
+    "统一表征在SLR任务上的零样本迁移能力验证"
+   ],
+   "benchmarks": [
+    "CSL-Daily",
+    "How2Sign",
+    "OpenASL",
+    "WLASL100",
+    "CSL-News",
+    "YouTube-ASL"
+   ]
+  }
+ }
 }
