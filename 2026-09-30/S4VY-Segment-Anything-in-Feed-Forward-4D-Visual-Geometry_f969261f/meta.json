@@ -4,5 +4,10 @@
  "title": "S4VY-Segment-Anything-in-Feed-Forward-4D-Visual-Geometry",
  "token": "sk-BWEWDbI3o...",
  "created_at": "2026-09-30 18:51:55",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c82055e1-adbb-4e4c-ad68-b6246c3dc3f9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/c82055e1-adbb-4e4c-ad68-b6246c3dc3f9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:43:14",
+  "chunks": 4
+ }
 }

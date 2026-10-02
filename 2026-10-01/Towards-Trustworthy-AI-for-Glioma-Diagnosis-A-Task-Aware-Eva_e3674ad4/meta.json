@@ -4,5 +4,33 @@
  "title": "Towards-Trustworthy-AI-for-Glioma-Diagnosis-A-Task-Aware-Eva",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-10-01 08:22:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/258d2d72-19e7-4023-98ac-66bbb42b1375.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/258d2d72-19e7-4023-98ac-66bbb42b1375.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 07:41:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Uncertainty Quantification",
+    "Multi-task Deep Learning",
+    "Glioma Diagnosis",
+    "Monte Carlo Dropout",
+    "Medical Image Analysis",
+    "Trustworthy AI"
+   ],
+   "field": "医学影像不确定性量化",
+   "innovations": [
+    "提出多任务胶质瘤诊断系统的任务感知UQ评估框架，系统性分析跨任务不确定性传播",
+    "证明预测不确定性已足够有效，不确定性分解在多任务场景中未带来一致操作优势",
+    "验证肿瘤局部不确定性聚合策略优于全脑聚合，且分类不确定性始终是最直接可靠的错误预测指标"
+   ],
+   "benchmarks": [
+    "BraTS",
+    "TCGA-GBM",
+    "TCGA-LGG",
+    "EGD",
+    "CPTAC-GBM"
+   ]
+  }
+ }
 }
