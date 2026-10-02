@@ -4,5 +4,30 @@
  "title": "TexTailor-Texture-Preserving-Video-Virtual-Try-On-via-Adapti",
  "token": "sk-rvQMAAO2D...",
  "created_at": "2026-10-01 08:28:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/95b4bf5d-322c-49e4-b916-99056a1aa898.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/95b4bf5d-322c-49e4-b916-99056a1aa898.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:53:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "video virtual try-on",
+    "diffusion transformer",
+    "texture preservation",
+    "high-resolution video generation",
+    "adaptive conditioning",
+    "temporal consistency"
+   ],
+   "field": "视频虚拟试穿",
+   "innovations": [
+    "时序自适应视觉调制(TAVM)实现去噪阶段的细粒度服装特征动态调控",
+    "帧对齐3D交叉RoPE(FAC-RoPE)消除人工时序偏移并建立稳定patch级对应",
+    "多源交叉注意力解耦注入(MCAI)减少异构条件间的跨模态干扰"
+   ],
+   "benchmarks": [
+    "Eevee",
+    "ViViD"
+   ]
+  }
+ }
 }

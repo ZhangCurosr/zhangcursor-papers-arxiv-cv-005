@@ -4,5 +4,30 @@
  "title": "UGOD-Uncertainty-Guided-Opacity-and-Dropout-for-Sparse-View",
  "token": "sk-5jLHcS0AE...",
  "created_at": "2026-10-01 08:25:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/245f633f-61da-4a26-a8b9-38a1f522a587.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/245f633f-61da-4a26-a8b9-38a1f522a587.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:53:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D Gaussian Splatting",
+    "sparse-view reconstruction",
+    "uncertainty estimation",
+    "opacity modulation",
+    "novel-view synthesis",
+    "regularization"
+   ],
+   "field": "3D视觉与神经渲染",
+   "innovations": [
+    "不确定性引导的可微透明度门控机制，直接调控渲染时的高不确定性Gaussian贡献",
+    "梯度解耦软Dropout正则化器，防止不确定性head被正则化目标污染",
+    "基于中位数-MAD的鲁棒非参数归一化，实现相对不确定性的分布自适应门控"
+   ],
+   "benchmarks": [
+    "MiP-NeRF 360 (8-view, 24-view)",
+    "LLFF (3-view)"
+   ]
+  }
+ }
 }

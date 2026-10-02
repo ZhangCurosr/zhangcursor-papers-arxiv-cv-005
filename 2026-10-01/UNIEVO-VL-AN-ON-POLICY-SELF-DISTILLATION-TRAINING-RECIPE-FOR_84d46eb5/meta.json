@@ -4,5 +4,10 @@
  "title": "UNIEVO-VL-AN-ON-POLICY-SELF-DISTILLATION-TRAINING-RECIPE-FOR",
  "token": "sk-jqdHJ0gJC...",
  "created_at": "2026-10-01 08:36:01",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/eb5b4df4-7966-4ecc-8fba-cc4aee64d95f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/eb5b4df4-7966-4ecc-8fba-cc4aee64d95f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:54:26",
+  "chunks": 1
+ }
 }

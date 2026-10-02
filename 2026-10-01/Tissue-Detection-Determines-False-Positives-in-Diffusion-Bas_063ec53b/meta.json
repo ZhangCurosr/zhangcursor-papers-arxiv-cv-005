@@ -4,5 +4,31 @@
  "title": "Tissue-Detection-Determines-False-Positives-in-Diffusion-Bas",
  "token": "sk-dKfLTOMDH...",
  "created_at": "2026-10-01 08:25:07",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/2fa7c3d0-7fcb-4abb-b27b-e87f4a30afdd.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/2fa7c3d0-7fcb-4abb-b27b-e87f4a30afdd.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:53:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "单类异常检测",
+    "组织检测",
+    "扩散模型",
+    "数字病理",
+    "伪影检测",
+    "假阳性",
+    "空白空间组织"
+   ],
+   "field": "计算病理学质控与异常检测",
+   "innovations": [
+    "首次量化组织检测步骤对单类扩散检测器假阳性的因果效应，证明饱和度Otsu检测系统性排除空白空间组织是主要假阳性来源",
+    "提出无标签空白空间比例指标预测池质量，三种检测器的假阳性与其单调对应",
+    "证明效果具有检测器依赖性，近邻特征检测器在相同池替换下不复现增益"
+   ],
+   "benchmarks": [
+    "AIRAQC (TCGA 16 slides)",
+    "SlideInspect (289 H&E images, 55 clean controls)"
+   ]
+  }
+ }
 }

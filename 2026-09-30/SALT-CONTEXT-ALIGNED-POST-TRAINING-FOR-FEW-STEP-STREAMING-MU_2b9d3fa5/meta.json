@@ -4,5 +4,30 @@
  "title": "SALT-CONTEXT-ALIGNED-POST-TRAINING-FOR-FEW-STEP-STREAMING-MU",
  "token": "sk-7yAuxnEAp...",
  "created_at": "2026-09-30 18:50:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/80abdf4c-eec5-41de-8352-453ae96b929b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/80abdf4c-eec5-41de-8352-453ae96b929b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:53:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "少步生成",
+    "流式生成",
+    "分布匹配蒸馏",
+    "因果视频生成",
+    "多模态生成",
+    "上下文对齐"
+   ],
+   "field": "多模态生成与高效采样",
+   "innovations": [
+    "提出Causal Self-Flow，利用历史信息不对称性直接学习预测性上下文表征",
+    "提出上下文对齐的AR DMD，统一干净前缀蒸馏与在线适应并解决上下文不匹配问题",
+    "结合尺度-wise后训练实现4步高分辨率流式音视频生成"
+   ],
+   "benchmarks": [
+    "JavisBench-mini",
+    "VBench"
+   ]
+  }
+ }
 }

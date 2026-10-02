@@ -4,5 +4,30 @@
  "title": "UNCERTAINTY-AWARE-CONSISTENCY-DISTILLATION-FOR-FEW-STEP-VIDE",
  "token": "sk-Gq5lt3OzO...",
  "created_at": "2026-10-01 08:29:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/34197226-210e-4298-85de-e549d40acaf7.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/34197226-210e-4298-85de-e549d40acaf7.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:53:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频生成",
+    "一致性蒸馏",
+    "少步蒸馏",
+    "不确定性建模",
+    "对抗训练",
+    "语义对齐",
+    "Flow Matching"
+   ],
+   "field": "视频生成模型压缩与蒸馏",
+   "innovations": [
+    "双路径一致性目标构造无参数局部不确定性代理",
+    "指数衰减权重自适应重加权时空蒸馏监督",
+    "特征空间对抗结合DINOv2语义对齐保障感知质量"
+   ],
+   "benchmarks": [
+    "VBench 2.0"
+   ]
+  }
+ }
 }

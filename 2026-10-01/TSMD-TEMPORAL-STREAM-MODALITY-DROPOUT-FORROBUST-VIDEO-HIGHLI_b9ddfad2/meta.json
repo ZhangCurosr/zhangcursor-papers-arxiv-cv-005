@@ -4,5 +4,31 @@
  "title": "TSMD-TEMPORAL-STREAM-MODALITY-DROPOUT-FORROBUST-VIDEO-HIGHLI",
  "token": "sk-3HkWblKpl...",
  "created_at": "2026-10-01 08:25:53",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/02fab5b1-ec21-4d03-b132-1c2a58bef58b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/02fab5b1-ec21-4d03-b132-1c2a58bef58b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:53:00",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频高光检测",
+    "多模态缺失鲁棒性",
+    "模态dropout",
+    "联合损失函数",
+    "RankNet",
+    "时序回归",
+    "跨模态融合"
+   ],
+   "field": "多模态视频理解",
+   "innovations": [
+    "提出TSMD框架，通过时间/流两个维度的结构化缺失模拟提升多模态高光检测鲁棒性",
+    "设计MSE+Pearson相关+RankNet联合训练目标，对齐逐点分数、全局轮廓与峰值排序",
+    "实证揭示时间鲁棒性与流鲁棒性的互补关系，TSMD-Mix在无额外开销下兼顾两种退化"
+   ],
+   "benchmarks": [
+    "MoSu",
+    "Mr. HiSum"
+   ]
+  }
+ }
 }

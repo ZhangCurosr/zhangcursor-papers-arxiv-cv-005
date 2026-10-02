@@ -4,5 +4,31 @@
  "title": "SALT-CONTEXT-ALIGNED-POST-TRAINING-FOR-FEW-STEP-STREAMING-MU",
  "token": "sk-7yAuxnEAp...",
  "created_at": "2026-09-30 08:12:51",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/80abdf4c-eec5-41de-8352-453ae96b929b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-09-30/80abdf4c-eec5-41de-8352-453ae96b929b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:53:12",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "few-step generation",
+    "streaming audio-video generation",
+    "distribution matching distillation",
+    "autoregressive diffusion",
+    "causal context alignment",
+    "self-flow representation learning",
+    "multi-modal generation"
+   ],
+   "field": "多模态生成与少步蒸馏",
+   "innovations": [
+    "提出Causal Self-Flow利用历史不对称性进行跨模态表示对齐，增强因果AR teacher的上下文表征能力",
+    "识别并解决DMD中的score-context mismatch，提出context-aligned AR DMD统一干净前缀蒸馏与on-policy适应",
+    "通过scale-wise post-training在4步内实现1664×960高分辨率因果音视频生成，六项指标超越双向LTX-2"
+   ],
+   "benchmarks": [
+    "JavisBench-mini",
+    "VBench"
+   ]
+  }
+ }
 }

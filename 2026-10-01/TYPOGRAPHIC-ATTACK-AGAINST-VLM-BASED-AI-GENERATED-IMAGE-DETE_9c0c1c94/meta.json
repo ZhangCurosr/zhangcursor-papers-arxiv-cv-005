@@ -4,5 +4,30 @@
  "title": "TYPOGRAPHIC-ATTACK-AGAINST-VLM-BASED-AI-GENERATED-IMAGE-DETE",
  "token": "sk-aknYEUs8O...",
  "created_at": "2026-10-01 08:21:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/8c38c5cd-cace-4bcd-b40d-34798716410a.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-01/8c38c5cd-cace-4bcd-b40d-34798716410a.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-02 01:53:25",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "AIGI Detection",
+    "Typographic Attack",
+    "Vision-Language Model",
+    "Adversarial Robustness",
+    "Multimodal Security",
+    "Deepfake Detection"
+   ],
+   "field": "多模态 AI 安全与鲁棒性",
+   "innovations": [
+    "首次系统评估字形攻击对 VLM 基 AIGI 检测器的安全性",
+    "揭示推理模式比直接模式更易受字形攻击的规律",
+    "发现模型规模与攻击成功率呈正相关的意外现象"
+   ],
+   "benchmarks": [
+    "Ivy-Fake",
+    "GenImage"
+   ]
+  }
+ }
 }
