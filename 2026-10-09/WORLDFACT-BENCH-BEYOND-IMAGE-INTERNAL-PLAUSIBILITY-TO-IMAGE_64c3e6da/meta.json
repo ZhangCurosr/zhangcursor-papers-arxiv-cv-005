@@ -4,5 +4,31 @@
  "title": "WORLDFACT-BENCH-BEYOND-IMAGE-INTERNAL-PLAUSIBILITY-TO-IMAGE",
  "token": "sk-FmwWXAxnf...",
  "created_at": "2026-10-09 08:40:04",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/1c7e98bb-0acd-449f-a1ab-8998bbce2faf.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/1c7e98bb-0acd-449f-a1ab-8998bbce2faf.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:29:57",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "image forensics",
+    "fact-checking",
+    "multimodal LLM",
+    "benchmark",
+    "verification agent"
+   ],
+   "field": "图像取证与事实验证",
+   "innovations": [
+    "提出 WorldFact-Bench 基准评估图像-世界一致性",
+    "设计 PERSIST-Agent 持久验证状态迭代框架",
+    "揭示检测器标签偏见并提出 Pair Accuracy 评估指标"
+   ],
+   "benchmarks": [
+    "WorldFact-Bench",
+    "GenImage",
+    "GIM",
+    "ForensicHub"
+   ]
+  }
+ }
 }

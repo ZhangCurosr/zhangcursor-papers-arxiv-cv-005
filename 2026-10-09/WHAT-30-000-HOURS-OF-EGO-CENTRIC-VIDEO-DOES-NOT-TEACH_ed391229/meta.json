@@ -4,5 +4,10 @@
  "title": "WHAT-30-000-HOURS-OF-EGO-CENTRIC-VIDEO-DOES-NOT-TEACH",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-10-09 08:35:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/d7159966-9483-460e-8bb2-d2f61b65d2b4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/d7159966-9483-460e-8bb2-d2f61b65d2b4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 17:30:00",
+  "chunks": 1
+ }
 }
