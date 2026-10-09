@@ -4,5 +4,31 @@
  "title": "VIBEEDIT-IMAGE-EDITING-WITH-CANVAS-INSTRUC-TIONS",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-10-09 08:35:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/8f9bfbba-ddb3-4d88-ac58-ed360d2a80c9.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/8f9bfbba-ddb3-4d88-ac58-ed360d2a80c9.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 09:47:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图像编辑",
+    "画布指令",
+    "扩散模型",
+    "强化学习",
+    "视觉-语言模型",
+    "区域加权训练"
+   ],
+   "field": "图像编辑与生成",
+   "innovations": [
+    "画布指令编辑界面：空间标记与简短注释统一指定编辑目标",
+    "层解耦条件编码：VAE分离编码源图像与指令避免污染",
+    "评分引导扩散RL：多准则VLM裁判优化编辑完成度与保留"
+   ],
+   "benchmarks": [
+    "VibeEdit Benchmark (419 cases)",
+    "VLM Rubric Score",
+    "Outside-region PSNR"
+   ]
+  }
+ }
 }

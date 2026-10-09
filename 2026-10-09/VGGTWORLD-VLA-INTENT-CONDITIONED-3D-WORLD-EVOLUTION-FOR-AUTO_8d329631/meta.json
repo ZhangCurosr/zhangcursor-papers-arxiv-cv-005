@@ -4,5 +4,30 @@
  "title": "VGGTWORLD-VLA-INTENT-CONDITIONED-3D-WORLD-EVOLUTION-FOR-AUTO",
  "token": "sk-vlHk6dmng...",
  "created_at": "2026-10-09 08:44:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/fd29760a-831f-4acc-9085-5fb89f85bd18.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/fd29760a-831f-4acc-9085-5fb89f85bd18.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 09:47:53",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "自动驾驶",
+    "世界模型",
+    "几何预测",
+    "条件生成",
+    "VGGT",
+    "视觉语言模型",
+    "可控演化"
+   ],
+   "field": "自动驾驶世界模型",
+   "innovations": [
+    "提出行动-语义条件注入机制，实现 VGGT 几何世界模型的可控 3D 未来预测",
+    "设计几何-语言-行动桥接模块，融合异构的几何、语义和行动表征",
+    "验证了行动条件能有效引导未来几何预测，并量化了语义的补充作用"
+   ],
+   "benchmarks": [
+    "NAVSIM/OpenScene"
+   ]
+  }
+ }
 }

@@ -4,5 +4,32 @@
  "title": "VISKILL-REINFORCING-VLM-AGENTS-WITH-EVOLV-ING-VISUAL-NATIVE",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-10-09 08:35:48",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/baa3b195-cf6e-4bab-8890-5189e7e500d5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/baa3b195-cf6e-4bab-8890-5189e7e500d5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 09:48:20",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VLM Agent",
+    "视觉原生技能",
+    "强化学习",
+    "技能蒸馏",
+    "几何检索",
+    "复合视觉技能卡",
+    "Skill-Guided Reward"
+   ],
+   "field": "Vision-Language Model Agents",
+   "innovations": [
+    "将成功轨迹编码为复合视觉技能卡，保留空间与程序结构的视觉原生技能表示",
+    "几何感知技能检索与技能引导奖励形成政策优化与技能积累的闭环反馈",
+    "在线质量门+新颖度门控制技能蒸馏，配合冷启动机制加速早期学习"
+   ],
+   "benchmarks": [
+    "Sokoban",
+    "FrozenLake",
+    "PrimitiveSkill"
+   ]
+  }
+ }
 }

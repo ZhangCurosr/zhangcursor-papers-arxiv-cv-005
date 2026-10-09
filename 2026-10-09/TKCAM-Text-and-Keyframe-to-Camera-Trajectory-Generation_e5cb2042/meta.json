@@ -4,5 +4,32 @@
  "title": "TKCAM-Text-and-Keyframe-to-Camera-Trajectory-Generation",
  "token": "sk-EKa3zthlJ...",
  "created_at": "2026-10-09 08:36:35",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/77448f52-1ef7-4829-9ec7-a007fde1acff.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/77448f52-1ef7-4829-9ec7-a007fde1acff.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 09:46:52",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "camera trajectory generation",
+    "masked generative modeling",
+    "RVQ tokenization",
+    "text-to-motion",
+    "keyframe conditioning",
+    "cross-domain evaluation"
+   ],
+   "field": "3D 视觉与生成式相机运动合成",
+   "innovations": [
+    "双阶段掩码 Transformer 并行生成 12D 运动学 token 以实现双向关键帧补全",
+    "稀疏 RGB 关键帧通过时间位置编码以软交叉注意力注入而非硬约束",
+    "RealEstate10K-Cap 数据集与 Universal CLaTr 跨域评测协议"
+   ],
+   "benchmarks": [
+    "RealEstate10K-Cap",
+    "E.T.",
+    "DataDoP",
+    "Universal CLaTr Evaluator"
+   ]
+  }
+ }
 }

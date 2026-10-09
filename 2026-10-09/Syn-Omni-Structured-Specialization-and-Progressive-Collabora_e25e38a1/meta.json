@@ -4,5 +4,33 @@
  "title": "Syn-Omni-Structured-Specialization-and-Progressive-Collabora",
  "token": "sk-ovHaiDbC4...",
  "created_at": "2026-10-09 08:39:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/364a7e29-52ea-487f-b7b4-9b603fbc8520.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/364a7e29-52ea-487f-b7b4-9b603fbc8520.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 09:46:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "全模态嵌入",
+    "LoRA 适配",
+    "多模态学习",
+    "专家路由",
+    "对比学习",
+    "结构化适配"
+   ],
+   "field": "多模态表示学习",
+   "innovations": [
+    "正交模态专家 LoRA：按模态轴解耦共享与专属适配路径，引入正交惩罚减少冗余",
+    "渐进协同路由：三阶段调度实现从模态隔离到跨模态协作的稳定过渡"
+   ],
+   "benchmarks": [
+    "MMEB-v1",
+    "MMEB-v2",
+    "VALOR-32k",
+    "AVHBench",
+    "AudioCaps",
+    "ESC-50"
+   ]
+  }
+ }
 }

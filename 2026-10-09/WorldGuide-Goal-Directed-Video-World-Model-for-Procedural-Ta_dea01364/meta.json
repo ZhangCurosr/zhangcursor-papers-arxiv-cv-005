@@ -4,5 +4,30 @@
  "title": "WorldGuide-Goal-Directed-Video-World-Model-for-Procedural-Ta",
  "token": "sk-dQ65jxzP4...",
  "created_at": "2026-10-09 08:36:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/20006c7d-1a26-41f4-a156-e0eb0b326b77.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/20006c7d-1a26-41f4-a156-e0eb0b326b77.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 09:49:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频生成",
+    "世界模型",
+    "程序化任务",
+    "闭环生成",
+    "规划器-执行器",
+    "长程视频"
+   ],
+   "field": "视频生成与程序化任务执行",
+   "innovations": [
+    "规划器-执行器联合训练的闭环程序视频生成框架",
+    "层级压缩视觉记忆机制控制长程token开销",
+    "WorldGuide Bench：59K步骤标注程序视频数据集"
+   ],
+   "benchmarks": [
+    "WorldGuide Bench",
+    "Video-CraftBench"
+   ]
+  }
+ }
 }

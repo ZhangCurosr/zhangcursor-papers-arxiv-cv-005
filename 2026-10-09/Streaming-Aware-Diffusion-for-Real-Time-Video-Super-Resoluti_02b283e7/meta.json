@@ -4,5 +4,30 @@
  "title": "Streaming-Aware-Diffusion-for-Real-Time-Video-Super-Resoluti",
  "token": "sk-TPYWIhRwY...",
  "created_at": "2026-10-09 08:32:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/4ba51b7a-af30-4cf8-a037-7bb492723014.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/4ba51b7a-af30-4cf8-a037-7bb492723014.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 09:46:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频超分辨率",
+    "扩散模型",
+    "流式推理",
+    "时序一致性",
+    "跨步注意力",
+    "实时处理"
+   ],
+   "field": "实时视频超分辨率",
+   "innovations": [
+    "提出跨步注意力机制，利用前一帧更干净的中间扩散特征引导当前帧去噪，实现无显式时序建模的隐式时序传播",
+    "设计轨迹耦合扩散调度，将相邻扩散步配对以对齐训练与推理条件分布，提供跨步清洁先验",
+    "构建 FIFO 流式推理管道，将扩散计算从逐帧独立执行转为状态增量推进，有效复杂度从 O(N·S) 降至 O(N+S)"
+   ],
+   "benchmarks": [
+    "REDS4",
+    "YouHQ40-Test"
+   ]
+  }
+ }
 }

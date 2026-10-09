@@ -4,5 +4,33 @@
  "title": "Spatial-Frequency-Aware-Implicit-Neural-Representation-of",
  "token": "sk-fyqv15Q7Q...",
  "created_at": "2026-10-09 08:40:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/4d4e793c-5b9c-4c65-8af0-c1957d3df376.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/4d4e793c-5b9c-4c65-8af0-c1957d3df376.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 09:46:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "隐式神经表示",
+    "Kolmogorov-Arnold Networks",
+    "频谱偏差",
+    "小波变换",
+    "多维信号重建",
+    "MLP-KAN 双分支"
+   ],
+   "field": "隐式神经表示与多维信号建模",
+   "innovations": [
+    "MLP-KAN 异构双分支实现低频-高频互补表示",
+    "小波域加法系数融合配合带分离正则化引导频域协调",
+    "在 1D-4D 多维度信号上统一验证框架有效性"
+   ],
+   "benchmarks": [
+    "DIV2K",
+    "HCI 4D Light Field Benchmark",
+    "MSU Video Compression SR Benchmark",
+    "Stanford 3D Scanning Repository (SDF)",
+    "Head & Standard 3D Volumes"
+   ]
+  }
+ }
 }

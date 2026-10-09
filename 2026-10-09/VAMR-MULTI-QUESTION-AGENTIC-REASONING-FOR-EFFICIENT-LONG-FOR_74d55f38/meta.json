@@ -4,5 +4,30 @@
  "title": "VAMR-MULTI-QUESTION-AGENTIC-REASONING-FOR-EFFICIENT-LONG-FOR",
  "token": "sk-qmUqzLD4i...",
  "created_at": "2026-10-09 08:36:08",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/a91d8d3e-7fd1-4114-bbcb-201abc591230.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/a91d8d3e-7fd1-4114-bbcb-201abc591230.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 09:48:09",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "long-form video understanding",
+    "multi-question reasoning",
+    "agentic video agent",
+    "policy optimization",
+    "shared trajectory",
+    "question-conditioned perception"
+   ],
+   "field": "长视频多模态理解与 Agent 推理",
+   "innovations": [
+    "提出共享回路多问题视频推理框架 VAMR，首次在同一轨迹中协调多个问题的工具调用与答案提交",
+    "设计 QHPO 算法，通过问题级 Critic 和回合对齐实现共享轨迹中异步终止问题的信用分配"
+   ],
+   "benchmarks": [
+    "LVBench",
+    "Video-Holmes",
+    "LongVideoBench"
+   ]
+  }
+ }
 }

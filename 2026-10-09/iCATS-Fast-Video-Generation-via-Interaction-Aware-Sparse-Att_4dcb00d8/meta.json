@@ -4,5 +4,34 @@
  "title": "iCATS-Fast-Video-Generation-via-Interaction-Aware-Sparse-Att",
  "token": "sk-8dCw3hSU3...",
  "created_at": "2026-10-09 08:34:52",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/2046d5d5-2a8c-4750-866e-7402b09a86d0.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/2046d5d5-2a8c-4750-866e-7402b09a86d0.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 09:48:45",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "稀疏注意力",
+    "视频生成",
+    "训练自由加速",
+    "DiT",
+    "扩散模型",
+    "SNR调度",
+    "交互感知聚类"
+   ],
+   "field": "高效推理与视频生成",
+   "innovations": [
+    "交互感知聚类：基于Q-K点积交互的二次型聚类目标替代独立特征聚类",
+    "SNR引导的时序自适应稀疏调度：利用logSNR逆sigmoid函数动态调整top-p",
+    "尾部合并策略：通过mask相似性重分配减少GPU块padding开销"
+   ],
+   "benchmarks": [
+    "Penguin Benchmark",
+    "VBench",
+    "Wan2.1-T2V-14B",
+    "HunyuanVideo-T2V-13B",
+    "Wan2.1-I2V-14B"
+   ]
+  }
+ }
 }

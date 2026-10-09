@@ -4,5 +4,31 @@
  "title": "mniDex-Scaling-Dexterous-Hand-Grasping-to-Diverse-Cluttered",
  "token": "sk-WBtYQMcVU...",
  "created_at": "2026-10-09 08:39:02",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/c016dd83-cd12-453a-beb8-a36626e073ba.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/c016dd83-cd12-453a-beb8-a36626e073ba.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 09:48:48",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "dexterous grasping",
+    "cluttered scene",
+    "sim-to-real",
+    "diffusion model",
+    "large-scale benchmark",
+    "physics-constrained learning"
+   ],
+   "field": "灵巧手抓取与 Embodied AI",
+   "innovations": [
+    "Seed-and-Filter 两阶段大规模杂乱场景抓取数据生成策略，突破 260 万场景规模瓶颈",
+    "Soft Winner-Takes-All 结合端到端物理约束训练的扩散抓取模型，消除测试时后优化需求"
+   ],
+   "benchmarks": [
+    "OmniDex Benchmark",
+    "DexGraspNet 2.0",
+    "ClutterDexGrasp",
+    "DexGraspVLA"
+   ]
+  }
+ }
 }

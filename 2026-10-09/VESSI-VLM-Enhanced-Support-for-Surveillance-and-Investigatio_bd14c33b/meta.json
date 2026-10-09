@@ -4,5 +4,31 @@
  "title": "VESSI-VLM-Enhanced-Support-for-Surveillance-and-Investigatio",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-10-09 08:30:24",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/a7c2844e-c13e-4c4e-8439-e3b2750fc8c3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/a7c2844e-c13e-4c4e-8439-e3b2750fc8c3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 09:47:27",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视觉语言模型",
+    "视频监控分析",
+    "异常检测",
+    "幻觉评估",
+    "无参考评估",
+    "法证分析"
+   ],
+   "field": "多模态监控与视频理解",
+   "innovations": [
+    "提出VESSI模块化帧级提示查询框架，支持可追溯证据检索",
+    "引入CMUS无参考复合评估指标，融合覆盖率/效率/幻觉代理",
+    "建立参考-free与人工标注一致性验证的实验范式"
+   ],
+   "benchmarks": [
+    "UCF-Crime",
+    "Normal Video Control Group (50 videos)",
+    "Human-Reference Subset (5909 frames)"
+   ]
+  }
+ }
 }

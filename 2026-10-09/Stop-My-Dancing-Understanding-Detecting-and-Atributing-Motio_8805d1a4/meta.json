@@ -4,5 +4,32 @@
  "title": "Stop-My-Dancing-Understanding-Detecting-and-Atributing-Motio",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-10-09 08:39:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/b6d6b9e2-7eb8-459f-90a9-be19d901a51e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-09/b6d6b9e2-7eb8-459f-90a9-be19d901a51e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-10-09 09:46:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Deepfake检测",
+    "视频取证",
+    "扩散模型",
+    "运动感知伪造",
+    "频域分析",
+    "模型归因"
+   ],
+   "field": "AI生成内容检测与取证",
+   "innovations": [
+    "首个MAD专用基准数据集，明确控制身份/运动分离",
+    "MoDA双流框架：学习高通滤波+跨域对齐捕捉运动边界高频伪影",
+    "揭示扩散模型架构在高频残差谱中留下可量化指纹的归因机制"
+   ],
+   "benchmarks": [
+    "MAD Dataset (1,363 real + 30,122 synthetic)",
+    "I2VControl commercial samples",
+    "Wan2.2-Animate commercial samples",
+    "Open-Internet 1,200 clips"
+   ]
+  }
+ }
 }
