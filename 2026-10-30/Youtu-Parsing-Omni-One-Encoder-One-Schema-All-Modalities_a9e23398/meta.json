@@ -4,5 +4,34 @@
  "title": "Youtu-Parsing-Omni-One-Encoder-One-Schema-All-Modalities",
  "token": "sk-41l0wHhLH...",
  "created_at": "2026-10-30 08:15:34",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/80f58627-6e4e-429e-aa32-d482b00c652e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/80f58627-6e4e-429e-aa32-d482b00c652e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:02:13",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "omni-modal parsing",
+    "unified encoder",
+    "on-policy distillation",
+    "temporal alignment",
+    "structured output",
+    "multimodal perception"
+   ],
+   "field": "多模态理解与文档解析",
+   "innovations": [
+    "基于文本LM初始化的统一跨模态编码器+分块轴因式化RoPE实现感知级音视频融合",
+    "OmniSchema统一十任务输出格式并支持OSAD自演化token-role区分蒸馏",
+    "Schema-routed RLVR结合通用格式惩罚与任务特定content reward"
+   ],
+   "benchmarks": [
+    "OmniDocBench v1.6",
+    "OmniParsingBench",
+    "PureDocBench",
+    "ChemOCR",
+    "PDMX-Synth",
+    "Video-MME-v2"
+   ]
+  }
+ }
 }

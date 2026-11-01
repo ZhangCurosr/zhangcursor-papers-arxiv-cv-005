@@ -4,5 +4,30 @@
  "title": "YOLOF-MLD-A-Multi-Level-Distillation-Framework-for-Efficient",
  "token": "sk-UDLQGxzLo...",
  "created_at": "2026-10-30 08:20:14",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/493146c6-9677-422f-aa19-7a430635dd4e.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/493146c6-9677-422f-aa19-7a430635dd4e.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:02:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "轻量目标检测",
+    "边缘部署",
+    "知识蒸馏",
+    "SiSo颈部",
+    "火灾烟雾检测",
+    "YOLO26"
+   ],
+   "field": "轻量级目标检测",
+   "innovations": [
+    "提出YOLOF-MLD框架，用SiSo颈部替代FPN并通过多水平蒸馏补偿精度损失",
+    "设计SSM（切片语义匹配），基于OT思想实现细粒度跨层特征对齐",
+    "设计RFM（感受野匹配），按感受野尺度引导SiSo颈部习得FPN多尺度融合能力"
+   ],
+   "benchmarks": [
+    "D-Fire",
+    "AFS"
+   ]
+  }
+ }
 }

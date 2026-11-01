@@ -4,5 +4,34 @@
  "title": "Towards-Unified-Evaluation-of-Prompt-Enhancers-for-Video-Gen",
  "token": "sk-2d8Cyf5aG...",
  "created_at": "2026-10-09 19:28:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/e229c742-2f2d-4bc3-a239-43aa801c7224.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/e229c742-2f2d-4bc3-a239-43aa801c7224.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:00:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Prompt Enhancer",
+    "Video Generation",
+    "Benchmark",
+    "Prompt Evaluation",
+    "T2V",
+    "I2V",
+    "R2V"
+   ],
+   "field": "视频生成提示工程与评估",
+   "innovations": [
+    "首个统一视频提示增强器直接评估基准PEBench，解耦PE质量与下游生成器行为",
+    "证据驱动的双阶段评估框架：模态感知事实提取+24项固定rubric准则级评分",
+    "揭示PE从描述扩展向cinematic planning演进的工业趋势及caption-reconstruction与forward-refinement的互补能力"
+   ],
+   "benchmarks": [
+    "PEBench",
+    "VBench",
+    "EvalCrafter",
+    "MSAVBench",
+    "OpenS2V-Nexus"
+   ]
+  }
+ }
 }

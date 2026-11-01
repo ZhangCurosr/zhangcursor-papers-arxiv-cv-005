@@ -4,5 +4,31 @@
  "title": "WAM-CACHE-STALENESS-BOUNDED-KV-REUSE-FOR-EFFICIENT-WORLD-ACT",
  "token": "sk-jny6RLrk9...",
  "created_at": "2026-10-09 19:23:19",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/b236af02-44af-415e-b6d1-ce1df9a4f691.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/b236af02-44af-415e-b6d1-ce1df9a4f691.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:00:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "World Action Models",
+    "KV Caching",
+    "Inference Acceleration",
+    "Robot Manipulation",
+    "Training-Free",
+    "Token Refresh"
+   ],
+   "field": "机器人操作中的高效推理",
+   "innovations": [
+    "首次提出训练免费的视频DiT预填充KV缓存框架",
+    "揭示动作专家注意力比视觉漂移更有效的刷新原则",
+    "设计三信号联合+年龄上限的稀疏刷新机制"
+   ],
+   "benchmarks": [
+    "RoboTwin 2.0",
+    "LIBERO",
+    "Real-world AIRBOT Play"
+   ]
+  }
+ }
 }

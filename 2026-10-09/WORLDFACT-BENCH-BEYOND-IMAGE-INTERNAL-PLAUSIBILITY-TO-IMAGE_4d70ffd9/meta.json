@@ -4,5 +4,28 @@
  "title": "WORLDFACT-BENCH-BEYOND-IMAGE-INTERNAL-PLAUSIBILITY-TO-IMAGE",
  "token": "sk-FmwWXAxnf...",
  "created_at": "2026-10-09 19:27:27",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/962b4ba4-d247-4040-8175-53483b6f964f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/962b4ba4-d247-4040-8175-53483b6f964f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:01:29",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图像取证",
+    "多模态事实核查",
+    "图像世界一致性",
+    "视觉验证代理",
+    "多步推理",
+    "图像生成检测"
+   ],
+   "field": "多模态可信AI与图像取证",
+   "innovations": [
+    "提出WorldFact-Bench基准，通过源对齐配对评估单图自主发现并验证事实冲突的能力",
+    "设计PERSIST-Agent持久化验证状态框架，分离视觉观察与证据值并支持跨步迭代修正"
+   ],
+   "benchmarks": [
+    "WorldFact-Bench"
+   ]
+  }
+ }
 }

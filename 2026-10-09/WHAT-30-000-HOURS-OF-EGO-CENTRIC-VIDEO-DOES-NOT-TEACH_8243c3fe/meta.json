@@ -4,5 +4,30 @@
  "title": "WHAT-30-000-HOURS-OF-EGO-CENTRIC-VIDEO-DOES-NOT-TEACH",
  "token": "sk-xjs1Z4GZW...",
  "created_at": "2026-10-09 19:15:57",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/f507d1e1-1f5d-4a8a-a475-3684c8e3f6be.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/f507d1e1-1f5d-4a8a-a475-3684c8e3f6be.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:00:55",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "world model",
+    "ego-centric video",
+    "object dynamics",
+    "scaling law",
+    "diffusion model",
+    "interaction fidelity"
+   ],
+   "field": "具身智能与世界模型",
+   "innovations": [
+    "系统揭示了第一人称数据Scaling对主体保真度与物体交互保真度的非均衡影响，主体早饱和而物体存在远低于主体的收敛上限",
+    "提出物体中心自适应噪声调度，首次通过训练目标设计而非数据扩展提升物体交互保真度上限",
+    "将骨架条件化用作解耦工具，在固定主体建模能力后独立测量物体动力学的收敛行为"
+   ],
+   "benchmarks": [
+    "SCS (Structural Consistency Score)",
+    "LPIPS"
+   ]
+  }
+ }
 }

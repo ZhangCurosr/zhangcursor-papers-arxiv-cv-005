@@ -4,5 +4,33 @@
  "title": "WORLDALIGN-DECOUPLED-4D-REWARD-FOR-WORLD-CONSISTENT-VIDEO-GE",
  "token": "sk-oJ013oevc...",
  "created_at": "2026-10-09 19:23:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/e3699b4e-c0d1-4738-8707-747727943c56.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/e3699b4e-c0d1-4738-8707-747727943c56.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 07:01:17",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "视频生成",
+    "世界一致性",
+    "后训练",
+    "奖励模型",
+    "几何一致性",
+    "动态一致性",
+    "解耦评估",
+    "GRPO"
+   ],
+   "field": "视频生成与一致性",
+   "innovations": [
+    "提出解耦4D奖励框架，分别评估静态几何一致性和动态行为一致性",
+    "设计语义引导的掩码重投影奖励，避免动态主体干扰静态一致性评估",
+    "构建基于VLM和样本特定检查清单的动态一致性奖励"
+   ],
+   "benchmarks": [
+    "DAVIS",
+    "COCO",
+    "VBench"
+   ]
+  }
+ }
 }
