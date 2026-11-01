@@ -4,5 +4,32 @@
  "title": "YOLOF-MLD-A-Multi-Level-Distillation-Framework-for-Efficient",
  "token": "sk-UDLQGxzLo...",
  "created_at": "2026-10-30 19:11:28",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/755fbc77-5eab-4f86-8f4f-7dc196bd5d7d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/755fbc77-5eab-4f86-8f4f-7dc196bd5d7d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 14:34:01",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "轻量级目标检测",
+    "边缘部署",
+    "知识蒸馏",
+    "SiSo 颈部",
+    "多级蒸馏",
+    "最优传输",
+    "火灾烟雾检测",
+    "CPU 推理优化"
+   ],
+   "field": "边缘设备高效目标检测",
+   "innovations": [
+    "提出面向 SiSo 颈部的多级蒸馏 (MLD) 框架，有效缓解架构简化导致的精度损失",
+    "设计切片语义匹配 (SSM)，利用最优传输理论实现跨层细粒度特征对齐",
+    "在 CPU 边缘设备上实现比 YOLO26n 快 62.3% 的推理速度，同时保持竞争力精度"
+   ],
+   "benchmarks": [
+    "D-Fire",
+    "Annotated Fire-Smoke (AFS)"
+   ]
+  }
+ }
 }
