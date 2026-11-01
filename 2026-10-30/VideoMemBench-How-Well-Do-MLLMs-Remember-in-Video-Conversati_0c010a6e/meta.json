@@ -4,5 +4,30 @@
  "title": "VideoMemBench-How-Well-Do-MLLMs-Remember-in-Video-Conversati",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-10-30 08:18:39",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/596c6ce9-866b-4051-83d4-6760344ace64.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/596c6ce9-866b-4051-83d4-6760344ace64.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 00:51:07",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VideoMemBench",
+    "multimodal large language models",
+    "in-context video memory",
+    "multi-turn dialogue",
+    "episodic dependency",
+    "answer dependency",
+    "benchmark"
+   ],
+   "field": "多模态大模型评估",
+   "innovations": [
+    "提出 VideoMemBench，通过类型化的跨轮依赖图评估 MLLM 的上下文视频记忆能力",
+    "设计双依赖类型（Episodic/Answer）和三层 LLM 构建管线，确保依赖的必要性与非泄漏性",
+    "揭示当前 SOTA 模型在长程视频对话记忆中表现有限（最高 45.7%），并分析影响因素"
+   ],
+   "benchmarks": [
+    "VideoMemBench"
+   ]
+  }
+ }
 }

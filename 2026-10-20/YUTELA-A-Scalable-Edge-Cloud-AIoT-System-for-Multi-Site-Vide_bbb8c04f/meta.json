@@ -4,5 +4,32 @@
  "title": "YUTELA-A-Scalable-Edge-Cloud-AIoT-System-for-Multi-Site-Vide",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-10-20 18:26:42",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/f817e4ae-e767-4de3-9059-a94afc8680e4.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-21/f817e4ae-e767-4de3-9059-a94afc8680e4.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 00:50:56",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Video Anomaly Detection",
+    "Edge Computing",
+    "Scene-Specific Adaptation",
+    "Multi-Site AIoT",
+    "TensorRT",
+    "Periodic Retraining",
+    "Real-world Deployment"
+   ],
+   "field": "边缘智能视频异常检测与多站点部署",
+   "innovations": [
+    "将工作站级本地推理迁移至Jetson Thor边缘设备并通过共享管线/TensorRT使吞吐最高达到工作站2.03倍",
+    "每相机独立异常模型+基于伪正常样本累积量的集中式周期重训练闭环",
+    "边-全局-云三层解耦架构：对象异常走边缘直达云端保延迟、行为异常经全局统计降误报保准确"
+   ],
+   "benchmarks": [
+    "YUTELA自主录制多密度监控视频 (正常/重度/极端密度)",
+    "170小时四站点31路CCTV真实部署",
+    "Ancilia工作站基线对比 (Threadripper + 3×A6000)"
+   ]
+  }
+ }
 }

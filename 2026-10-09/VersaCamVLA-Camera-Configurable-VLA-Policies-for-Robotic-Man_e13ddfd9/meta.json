@@ -4,5 +4,31 @@
  "title": "VersaCamVLA-Camera-Configurable-VLA-Policies-for-Robotic-Man",
  "token": "sk-331OfnzjD...",
  "created_at": "2026-10-09 19:15:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/27887c12-dd29-4320-a067-f2e4c6117001.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/27887c12-dd29-4320-a067-f2e4c6117001.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 00:48:50",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VLA",
+    "相机配置鲁棒性",
+    "场景token",
+    "多视角操作",
+    "位姿泛化",
+    "flow-matching"
+   ],
+   "field": "具身智能与机器人操作",
+   "innovations": [
+    "两阶段解耦的场景token接口学习，实现任意相机配置下的统一视觉表示",
+    "WAPS利用腕部相机自然运动作为免费位姿多样性来源",
+    "多信号目标视角预测（RGB+语义+边缘）提升场景token的空间结构编码能力"
+   ],
+   "benchmarks": [
+    "RoboTwin 2.0",
+    "LIBERO",
+    "真实机器人双臂操作"
+   ]
+  }
+ }
 }

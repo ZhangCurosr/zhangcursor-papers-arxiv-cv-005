@@ -4,5 +4,31 @@
  "title": "VEDJE-VIDEO-EFFICIENT-DISCRIMINATIVE-JOINT-ENCODER-FOR-SCALA",
  "token": "sk-AG7sAmdzS...",
  "created_at": "2026-10-09 19:28:36",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/d362fa62-f93f-4a70-aed4-ee87dbb82eea.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/d362fa62-f93f-4a70-aed4-ee87dbb82eea.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 00:48:03",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "video-text retrieval",
+    "cached joint reranking",
+    "feature-change supervision",
+    "frame-indexed cache",
+    "efficient multimodal retrieval"
+   ],
+   "field": "视频-文本检索",
+   "innovations": [
+    "帧索引紧凑视频缓存（帧内压缩、帧间分离）",
+    "特征变化预测监督（delta loss）辅助压缩表征学习",
+    "残差先联合重排序（stage-1 标量先验 + 轻量 joint encoder）"
+   ],
+   "benchmarks": [
+    "MSR-VTT",
+    "MSVD",
+    "DiDeMo",
+    "ActivityNet"
+   ]
+  }
+ }
 }

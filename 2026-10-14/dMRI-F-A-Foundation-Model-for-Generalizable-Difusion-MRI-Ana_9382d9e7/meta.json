@@ -4,5 +4,38 @@
  "title": "dMRI-F-A-Foundation-Model-for-Generalizable-Difusion-MRI-Ana",
  "token": "sk-NSDKB0rML...",
  "created_at": "2026-10-14 07:09:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/2de0b157-9b98-4c3d-8d48-2a81f03b7449.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/2de0b157-9b98-4c3d-8d48-2a81f03b7449.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 00:50:21",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "diffusion MRI",
+    "foundation model",
+    "self-supervised learning",
+    "q-space reconstruction",
+    "brain parcellation",
+    "image registration",
+    "cross-modal synthesis"
+   ],
+   "field": "扩散MRI基础模型与可泛化分析",
+   "innovations": [
+    "q-space掩码重建预训练任务：从6个体积预测270个体积学习通用dMRI表征",
+    "解剖感知编码器+NeRF坐标条件解码器架构：联合建模空间与扩散编码维度",
+    "统一基础模型支持脑分区/配准/跨模态合成三类下游任务的零样本迁移"
+   ],
+   "benchmarks": [
+    "HCP-YA",
+    "ABIDE",
+    "ADNI",
+    "ADNI-DOD",
+    "HABS",
+    "ICBM",
+    "SCAN",
+    "NIFD",
+    "PPMI"
+   ]
+  }
+ }
 }

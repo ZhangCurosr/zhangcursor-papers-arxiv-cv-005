@@ -4,5 +4,31 @@
  "title": "WorldFlow-Joint-Video-and-3D-Motion-Prediction-via-Large-Sca",
  "token": "sk-gpAzKtmRM...",
  "created_at": "2026-10-30 19:11:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/065b0a3c-a9dd-43f9-937e-3ba774d61166.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/065b0a3c-a9dd-43f9-937e-3ba774d61166.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 00:52:05",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "3D motion prediction",
+    "world model",
+    "video generation",
+    "generative model",
+    "robotic manipulation",
+    "spatial reasoning"
+   ],
+   "field": "具身智能与3D运动预测",
+   "innovations": [
+    "提出联合视频-3D运动预测的生成式世界模型WorldFlow，统一MoT骨干网络耦合显式几何动力学与视觉演化",
+    "构建144万规模异构训练语料和WorldFlowBench基准，首次系统对比联合生成与后验跟踪管线",
+    "设计辅助运动目标（方向/位移/端点损失）和两阶段课程学习策略，显著提升ADE/FDE精度"
+   ],
+   "benchmarks": [
+    "WorldFlowBench-Sim7",
+    "WorldFlowBench-Real3",
+    "WorldFlowBench-SpatialCog"
+   ]
+  }
+ }
 }

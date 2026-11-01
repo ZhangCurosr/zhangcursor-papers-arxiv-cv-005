@@ -4,5 +4,10 @@
  "title": "mniDex-Scaling-Dexterous-Hand-Grasping-to-Diverse-Cluttered",
  "token": "sk-WBtYQMcVU...",
  "created_at": "2026-10-09 19:22:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/981cbadd-609f-4b66-82ab-3a9df2c8929b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/981cbadd-609f-4b66-82ab-3a9df2c8929b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 00:50:20",
+  "chunks": 1
+ }
 }

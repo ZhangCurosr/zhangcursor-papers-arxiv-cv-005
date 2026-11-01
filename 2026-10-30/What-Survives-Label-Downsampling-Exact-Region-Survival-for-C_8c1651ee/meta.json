@@ -4,5 +4,34 @@
  "title": "What-Survives-Label-Downsampling-Exact-Region-Survival-for-C",
  "token": "sk-gD7m2ian9...",
  "created_at": "2026-10-30 08:30:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/1b780926-4804-467b-8033-271aca371526.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/1b780926-4804-467b-8033-271aca371526.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 00:51:42",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "label downsampling",
+    "instance segmentation",
+    "matching",
+    "transversal matroid",
+    "StarDist",
+    "coarse target",
+    "nucleus segmentation"
+   ],
+   "field": "语义/实例分割的下采样与目标构造",
+   "innovations": [
+    "将标签下采样建模为支撑图最小成本匹配并给出最大存活与不可避免丢失的证书",
+    "提出带优先级分层（MatchDown-P）确保所有≥1格的已评估区域存活",
+    "证明多数池化丢失的区域经最近邻上采样IoU上界≤0.5，揭示存活与形状重建是两个独立瓶颈"
+   ],
+   "benchmarks": [
+    "COCO panoptic validation",
+    "Cityscapes",
+    "BBBC038",
+    "BBBC039",
+    "BSDS500"
+   ]
+  }
+ }
 }

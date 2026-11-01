@@ -4,5 +4,29 @@
  "title": "VideoMemBench-How-Well-Do-MLLMs-Remember-in-Video-Conversati",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-10-30 19:13:30",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/11736d8b-3f83-43b1-9c74-ea681d5d0a06.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/11736d8b-3f83-43b1-9c74-ea681d5d0a06.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 00:51:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多模态大语言模型",
+    "视频理解",
+    "长对话记忆",
+    "基准测试",
+    "上下文记忆",
+    "依赖关系"
+   ],
+   "field": "多模态大语言模型评测与 benchmark",
+   "innovations": [
+    "提出 in-context video memory 概念，将视频对话记忆区分为情节依赖与答案依赖",
+    "构建 VideoMemBench，首个带 typed dependency graph 和严格必要性/非泄漏性验证的视频多轮对话基准",
+    "设计链式信用评估指标以量化答案依赖链上的误差累积"
+   ],
+   "benchmarks": [
+    "VideoMemBench"
+   ]
+  }
+ }
 }

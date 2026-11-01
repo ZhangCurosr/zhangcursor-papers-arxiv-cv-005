@@ -4,5 +4,31 @@
  "title": "VISKILL-REINFORCING-VLM-AGENTS-WITH-EVOLV-ING-VISUAL-NATIVE",
  "token": "sk-jywkrqzJV...",
  "created_at": "2026-10-09 19:18:46",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/ee26a3a0-1536-40e1-ac10-98c4f26000de.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/ee26a3a0-1536-40e1-ac10-98c4f26000de.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 00:48:39",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "VLM Agent",
+    "Reinforcement Learning",
+    "Skill-Augmented Agent",
+    "Visual Skill Representation",
+    "Geometry-Aware Retrieval",
+    "Visual-Language Model"
+   ],
+   "field": "VLM Agent 强化学习",
+   "innovations": [
+    "视觉原生复合技能卡：把成功轨迹与策略文字渲染为单图保留空间结构",
+    "几何感知检索+技能引导奖励的双驱动闭环",
+    "在线双门控蒸馏与效用-频次淘汰的自演化技能库"
+   ],
+   "benchmarks": [
+    "Sokoban",
+    "FrozenLake",
+    "PrimitiveSkill"
+   ]
+  }
+ }
 }

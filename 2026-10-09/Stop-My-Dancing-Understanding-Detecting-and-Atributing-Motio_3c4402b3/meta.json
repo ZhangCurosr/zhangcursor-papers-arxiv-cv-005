@@ -4,5 +4,33 @@
  "title": "Stop-My-Dancing-Understanding-Detecting-and-Atributing-Motio",
  "token": "sk-tFmPcED8R...",
  "created_at": "2026-10-09 19:26:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/cd3b6424-636f-4e82-9860-54536f2e742d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/cd3b6424-636f-4e82-9860-54536f2e742d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 00:46:47",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Deepfake",
+    "Motion-Aware Deepfake",
+    "Video Forensics",
+    "Diffusion Model Artifacts",
+    "Detection",
+    "Attribution",
+    "High-frequency Artifacts",
+    "Cross-domain Alignment"
+   ],
+   "field": "AI生成内容检测与取证",
+   "innovations": [
+    "首个姿态引导扩散模型 MAD 专用基准与身份/运动双轴切分协议",
+    "MoDA双stream框架：可学习高通滤波+跨域对齐+关键区域聚焦+多尺度聚合",
+    "运动边界高频残差 3D 频谱指纹用于模型归因与 open-set 未知生成器识别"
+   ],
+   "benchmarks": [
+    "MAD Dataset",
+    "I2VControl Commercial Samples",
+    "Open-Internet 55k Frames"
+   ]
+  }
+ }
 }

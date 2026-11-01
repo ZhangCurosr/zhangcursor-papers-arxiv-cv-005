@@ -4,5 +4,31 @@
  "title": "WorldOracle-Benchmarking-Action-Conditioned-World-Models-aga",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-10-14 18:27:59",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/7aca978f-e637-4cfc-ac5b-98c81c0574d5.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-15/7aca978f-e637-4cfc-ac5b-98c81c0574d5.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 00:49:43",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "action-conditioned world model",
+    "robotic manipulation benchmark",
+    "execution coherence",
+    "embodied world model evaluation",
+    "action-conditioned generation"
+   ],
+   "field": "具身智能与机器人操作",
+   "innovations": [
+    "提出首个以真实世界执行配对的 ACWM 基准测试，评测因果服从、分布迁移和时间持久性",
+    "设计四维度互补评测体系（物理正确性+空间对齐+局部保真度+多视图一致性）",
+    "构建涵盖四类交互动态、三种具身体验和失败执行数据的真实世界评测集"
+   ],
+   "benchmarks": [
+    "WorldOracle",
+    "AgiBot G2",
+    "YAM",
+    "ABC-130K"
+   ]
+  }
+ }
 }

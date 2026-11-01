@@ -4,5 +4,32 @@
  "title": "VESSI-VLM-Enhanced-Support-for-Surveillance-and-Investigatio",
  "token": "sk-vCwdEIcnG...",
  "created_at": "2026-10-09 19:23:11",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/2c0d3b39-cab3-4530-8224-0d635221687f.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/2c0d3b39-cab3-4530-8224-0d635221687f.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 00:48:06",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "vision-language models",
+    "video surveillance",
+    "anomaly detection",
+    "hallucination evaluation",
+    "reference-free benchmarking",
+    "digital forensics"
+   ],
+   "field": "监控视频理解与VLM评估",
+   "innovations": [
+    "提出VESSI逐帧提示式监控检索与可追溯告警管线",
+    "引入参考自由CMUS综合指标联合评估检测覆盖率、效率与幻觉风险",
+    "在多类别、多提示复杂度下对比四个7B VLM并给出操作权衡画像"
+   ],
+   "benchmarks": [
+    "UCF-Crime",
+    "VANE-Bench",
+    "VALOR-EVAL",
+    "normal-video control group"
+   ]
+  }
+ }
 }

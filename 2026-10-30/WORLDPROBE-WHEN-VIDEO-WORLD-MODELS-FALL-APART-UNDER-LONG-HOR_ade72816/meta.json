@@ -4,5 +4,10 @@
  "title": "WORLDPROBE-WHEN-VIDEO-WORLD-MODELS-FALL-APART-UNDER-LONG-HOR",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-10-30 08:18:47",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/dffc386b-ff41-4122-aade-73cf8140d3b8.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-30/dffc386b-ff41-4122-aade-73cf8140d3b8.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 00:51:46",
+  "chunks": 1
+ }
 }

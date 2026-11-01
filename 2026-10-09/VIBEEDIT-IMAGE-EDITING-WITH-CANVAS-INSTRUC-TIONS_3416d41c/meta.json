@@ -4,5 +4,37 @@
  "title": "VIBEEDIT-IMAGE-EDITING-WITH-CANVAS-INSTRUC-TIONS",
  "token": "sk-Ar06zcDAy...",
  "created_at": "2026-10-09 19:23:43",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/e670a7e1-961c-434a-a061-502466a9f819.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/e670a7e1-961c-434a-a061-502466a9f819.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 00:48:33",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "图像编辑",
+    "画布指令",
+    "分层解耦条件",
+    "区域加权监督微调",
+    "评分引导强化学习",
+    "DiffusionNFT",
+    "视觉生成对齐"
+   ],
+   "field": "图像编辑与视觉生成",
+   "innovations": [
+    "画布指令接口将空间标记与短文本注释直接叠加在源图上表达编辑意图",
+    "分层解耦条件分别编码注图语义与干净源/注图生成条件以避免输出痕迹",
+    "区域加权SFT与rubric-guided RL联合优化提升编辑完成度与未编辑区保留"
+   ],
+   "benchmarks": [
+    "VibeEdit benchmark (419 cases)",
+    "Qwen-Image-Edit-2511",
+    "LongCat-Image-Edit",
+    "FLUX.2-klein-9B",
+    "FireRed-Image-Edit-1.0",
+    "JoyAI-Image-Edit",
+    "Step1X-Edit-v1p2",
+    "GPT-Image-1"
+   ]
+  }
+ }
 }

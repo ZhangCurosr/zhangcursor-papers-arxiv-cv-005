@@ -4,5 +4,29 @@
  "title": "WorldOracle-Benchmarking-Action-Conditioned-World-Models-aga",
  "token": "sk-07nfPn8BZ...",
  "created_at": "2026-10-14 07:07:31",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/530c9ab0-90f9-4f3f-a318-4cdfbc474c3d.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-14/530c9ab0-90f9-4f3f-a318-4cdfbc474c3d.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 00:50:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "action-conditioned world model",
+    "embodied evaluation benchmark",
+    "execution coherence",
+    "physical state prediction",
+    "multi-view action consistency",
+    "robot manipulation"
+   ],
+   "field": "具身智能世界模型评估",
+   "innovations": [
+    "提出首个以真实配对执行为参照的 ACWM 执行连贯性基准，四维指标覆盖物理正确性、空间对齐、区域保真度和多视图一致性",
+    "构建含成功/失败混合、多形态（AgiBot/YAM/人手上肢）、人机与策略两种动作分布的真实世界评测数据集",
+    "通过 VLM 自动生成物理状态判据实现自动化评估，指标与人类偏好一致率达 88-93%"
+   ],
+   "benchmarks": [
+    "WorldOracle"
+   ]
+  }
+ }
 }

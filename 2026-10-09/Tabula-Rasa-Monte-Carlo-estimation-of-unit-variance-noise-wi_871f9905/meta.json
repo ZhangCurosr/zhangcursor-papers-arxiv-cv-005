@@ -4,5 +4,34 @@
  "title": "Tabula-Rasa-Monte-Carlo-estimation-of-unit-variance-noise-wi",
  "token": "sk-xuJlHjv3a...",
  "created_at": "2026-10-09 19:24:26",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/9d2f169b-7f19-42c9-98b7-03e8db3da263.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/9d2f169b-7f19-42c9-98b7-03e8db3da263.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 00:47:51",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "noise generation",
+    "Monte Carlo",
+    "video diffusion models",
+    "temporal correlation",
+    "unit variance",
+    "non-photorealistic rendering"
+   ],
+   "field": "计算机图形学与生成模型交叉",
+   "innovations": [
+    "将像素重建建模为MC联合估计问题，通过数据库sketching技术在线估计方差并修正至单位方差",
+    "双级哈希+直方图机制高效估计子域面积权重，支持时间并行随机访问",
+    "引入prefiltering和三线性MIP映射解决缩小场景下的估计器高方差问题"
+   ],
+   "benchmarks": [
+    "DAVIS",
+    "LPIPS",
+    "SSIM",
+    "PSNR",
+    "WRP-E",
+    "3D WRP-E"
+   ]
+  }
+ }
 }

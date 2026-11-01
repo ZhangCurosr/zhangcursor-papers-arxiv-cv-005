@@ -4,5 +4,32 @@
  "title": "VAMR-MULTI-QUESTION-AGENTIC-REASONING-FOR-EFFICIENT-LONG-FOR",
  "token": "sk-qmUqzLD4i...",
  "created_at": "2026-10-09 19:25:33",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/79839e93-3b2c-4a82-be84-2f5166d09f8b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/79839e93-3b2c-4a82-be84-2f5166d09f8b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 00:48:04",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "多问题视频推理",
+    "共享轨迹智能体",
+    "QHPO",
+    "长视频理解",
+    "工具使用Agent",
+    "分层记忆",
+    "策略优化"
+   ],
+   "field": "多模态视频理解与智能体推理",
+   "innovations": [
+    "提出VAMR，首个在多问题场景下用共享ReAct循环协调推理的视频智能体，支持异步终止与跨问题证据复用",
+    "提出QHPO算法，通过问题级Critic和轮次对齐解决共享轨迹中多目标异步终止的信用分配问题",
+    "问题条件感知（QA-inspector）与分层记忆架构，实现细粒度线索检索与共享/专属证据的协同管理"
+   ],
+   "benchmarks": [
+    "LVBench",
+    "Video-Holmes",
+    "LongVideoBench"
+   ]
+  }
+ }
 }

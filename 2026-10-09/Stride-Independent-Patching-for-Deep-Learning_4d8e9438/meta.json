@@ -4,5 +4,31 @@
  "title": "Stride-Independent-Patching-for-Deep-Learning",
  "token": "sk-fYugtz9Wo...",
  "created_at": "2026-10-09 19:16:12",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/ac59d22a-5e00-4319-984c-322e1a82fa0b.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/ac59d22a-5e00-4319-984c-322e1a82fa0b.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 00:46:44",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "image patching",
+    "stride-independent patching",
+    "semantic segmentation",
+    "DeepLabV3+",
+    "transmission electron microscopy",
+    "adenovirus detection",
+    "patch-of-interest"
+   ],
+   "field": "医学图像分割",
+   "innovations": [
+    "提出半自动步长无关块处理（SSP）工具，通过专家用户直接框选兴趣块替代传统步长依赖切割策略",
+    "系统对比SSP/Noverlap/Overlap三种策略，证明高质量兴趣块以较少样本量超越大量冗余块的性能",
+    "在ResNet50/ResNet18/MobileNetV2三骨架上验证SSP实现最高平均精度（0.9731）与最短训练时间"
+   ],
+   "benchmarks": [
+    "TEM virus adenovirus dataset (50张2048×2048图像)",
+    "External test set (20张全尺寸图像)"
+   ]
+  }
+ }
 }

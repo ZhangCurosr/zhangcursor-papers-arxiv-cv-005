@@ -4,5 +4,32 @@
  "title": "TAP3D-Thermal-Assisted-3D-Human-Point-Clouds",
  "token": "sk-SRpYy0JAC...",
  "created_at": "2026-10-09 19:28:25",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/23289395-7f34-4d91-ac1e-892df95d5943.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-10/23289395-7f34-4d91-ac1e-892df95d5943.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 00:47:40",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Thermal Sensing",
+    "Human Point Clouds",
+    "Physics-Informed Neural Networks",
+    "Self-Supervised Learning",
+    "Depth Estimation",
+    "Multi-Perspective Fusion"
+   ],
+   "field": "热阵列感知与 3D 重建",
+   "innovations": [
+    "首个将低成本热阵列温度图转换为稠密 3D 人体点云的系统",
+    "物理可微正向模型驱动的多原始自监督联合估计（深度/发射率/温度/反射）",
+    "可微 OAV↔BEV 索引映射实现热干扰抑制与多用户分离"
+   ],
+   "benchmarks": [
+    "DCD (cm)",
+    "F1 Score (IoU=0.5)",
+    "MAE (cm)",
+    "MMD (cm)"
+   ]
+  }
+ }
 }

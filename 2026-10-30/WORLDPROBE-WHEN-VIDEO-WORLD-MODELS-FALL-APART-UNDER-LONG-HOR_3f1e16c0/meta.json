@@ -4,5 +4,34 @@
  "title": "WORLDPROBE-WHEN-VIDEO-WORLD-MODELS-FALL-APART-UNDER-LONG-HOR",
  "token": "sk-WFixZKKH5...",
  "created_at": "2026-10-30 19:13:38",
- "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/3a43919b-44c6-422b-9a6f-508e733a44c3.zip"
+ "result_url": "https://cdn-mineru.openxlab.org.cn/pdf/2026-10-31/3a43919b-44c6-422b-9a6f-508e733a44c3.zip",
+ "summarized": {
+  "model": "agnes-2.5-flash",
+  "at": "2026-11-01 00:51:26",
+  "chunks": 1,
+  "meta": {
+   "keywords": [
+    "Video World Models",
+    "Long-horizon Evaluation",
+    "Closed-loop Probing",
+    "Spatial Consistency",
+    "Video Generation Benchmarks"
+   ],
+   "field": "视频生成与评估",
+   "innovations": [
+    "提出闭环智能体驱动的长时视频世界模型诊断基准",
+    "构建多视角长程记忆与演化保真度评估体系，揭示局部稳定与全局不一致的差距",
+    "设计目标条件智能体配合辅助感知模块以实现稳定的长时相机控制"
+   ],
+   "benchmarks": [
+    "WorldProbe",
+    "WorldModelBench",
+    "WorldScore",
+    "WorldMark",
+    "WBench",
+    "LoopNav",
+    "Omni-WorldBench"
+   ]
+  }
+ }
 }
